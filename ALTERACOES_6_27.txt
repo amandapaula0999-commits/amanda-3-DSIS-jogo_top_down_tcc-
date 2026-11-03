@@ -1,0 +1,40 @@
+ESCAPE THE BUNKER — 6.27 — COLISÕES E CORREDOR
+Base integral: 6.26 ARMAS, GRADE E ESCADAS.
+
+ALTERAÇÕES
+- Caracóis e homens-lagarto verificam o corpo visível contra Obj_parede,
+  com uma caixa estável que cobre as poses de movimento e ataque.
+- A navegação do caracol apenas propõe o deslocamento; o movimento validado
+  aplica cada passo sem atravessar a parede. O mesmo bloqueio vale para
+  ataques e empurrões. A máscara usada para receber dano permanece igual.
+- Ajuste de nascimento ocorre uma única vez, após a criação das paredes.
+- Colisão da grade da escadaria alinhada à largura do desenho.
+- Corredor do nível 2 redesenhado com piso cinza, paredes oliva, tubulações,
+  luzes e portas no estilo do corredor do nível 1, sem os escombros.
+- Escadaria do nível 2 com degraus sólidos ascendentes; mantém o retorno ao
+  corredor do nível 1. Porta de emergência vermelha continua trancada.
+- Cenário e portas usam sprites importados. Layout, colisões e pontos de
+  chegada ajustados no editor de salas (Room_Corredor_N2), 1248 x 480.
+
+VERIFICAÇÃO REALIZADA
+- 237 recursos registrados e 242 arquivos YY analisados sem erros de JSON,
+  referências ausentes ou divergências entre dimensões de sprites e PNGs.
+- Conferidos campos frozen, ordem de criação e referências das instâncias.
+- 59 cenários de movimento simulado: caracol/lagarto perseguindo, ataques,
+  empurrões, paredes finas, aproximação pelos dois lados e nascimento.
+  Passos equivalentes a 20, 30, 60 e 120 FPS. Sem atravessamento nos testes.
+- Todas as seis áreas de interação do corredor são alcançáveis com a máscara
+  dos pés do jogador; todos os pontos de chegada estão fora das paredes.
+- Revisão visual da montagem com os sprites e o jogador em escala.
+- Este ambiente não possui GameMaker/Igor: NÃO houve compilação nem execução
+  nativa. As verificações acima são estáticas e simulações das rotinas.
+
+ABRIR E CONFERIR NO GAMEMAKER
+1. Extraia a pasta completa e abra tcc.yyp.
+2. No corredor do nível 1, atraia os caracóis até a grade e os escombros.
+   Confira perseguição, ataque e empurrão sem sobreposição da barreira.
+3. Após obter a chave e derrotar o boss, use a escadaria para o nível 2.
+4. Confira as portas de pesquisa, ferramentas, depósito e descanso, tanto
+   na ida quanto no retorno. A saída de emergência deve continuar fechada.
+5. Use a escada à direita: o texto indica SUBIR AO NÍVEL 1 e retorna ao
+   corredor superior. O atalho P e as regras das chaves foram preservados.

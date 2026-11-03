@@ -1,0 +1,37 @@
+{
+  "method": "Funcoes GML executadas em JavaScript com APIs simuladas. Sem execucao nativa no GameMaker.",
+  "results": [
+    {
+      "name": "So aparece ao obter pistola; pausa movimento e combate durante pensamento",
+      "passed": true
+    },
+    {
+      "name": "Espera outro dialogo, cena, pausa e jogador vivo antes de iniciar",
+      "passed": true
+    },
+    {
+      "name": "Tres paginas por Espaco e flag concluida somente ao terminar",
+      "passed": true
+    },
+    {
+      "name": "Nao repete em nova room ou troca de equipamento apos concluir",
+      "passed": true
+    },
+    {
+      "name": "Pausa nao avanca pagina e desenho usa painel existente",
+      "passed": true
+    },
+    {
+      "name": "Controles informados correspondem a tiro, recarga e selecao reais",
+      "passed": true
+    },
+    {
+      "name": "Instrucao do cientista aponta porta de emergencia e escadaria para fora",
+      "passed": true
+    },
+    {
+      "name": "Tutorial reinicia em nova partida e desenho ocorre antes do ramo fase2",
+      "passed": true
+    }
+  ]
+}

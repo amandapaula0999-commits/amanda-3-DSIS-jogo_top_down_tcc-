@@ -1,0 +1,153 @@
+6.24 — BRILHOS E DICAS
+Kits e duto destacados, pensamento ao sair sem usar o duto e fala no buraco final.
+Detalhes: CORRECOES_6_24.txt.
+
+6.23 — INVESTIDA E ARMA NA FASE 2
+Corrigido o alcance de dano da investida da cobra. Pistola na sala do pé de cabra,
+com uma caixa de 14 pregos. Removidas as caixas da fase 1.
+Detalhes: CORRECOES_6_23.txt.
+
+6.22 — SAÍDA E INTERAÇÃO
+Fundo preto correto na escadaria final. E mais consistente; diálogos com E ou Espaço.
+Detalhes e roteiro de verificação: CORRECOES_6_22.txt.
+
+6.20 — KITS DE VIDA
+E: guardar kit. Q: usar e curar 20% da vida máxima. Vida cheia não gasta kit.
+Cinco kits: 2 no boss 1 e 3 no boss final. Três caixas extras de 14 pregos na fase 2.
+Detalhes: KITS_E_MUNICAO_6_20.txt.
+
+6.19 — PENSAMENTO SOBRE MUNIÇÃO E SAÍDA
+Ao obter a pistola, o personagem explica os controles e pensa em guardar pregos
+para ameaças maiores. Botão direito: atacar/atirar; esquerdo: recarregar;
+1: cano; 2: pistola. O cano não pode mais ser arremessado.
+O cientista orienta procurar uma porta de emergência com escadaria para fora.
+Detalhes e validação: MUNICAO_E_SAIDA_6_19.txt.
+
+6.09 — CENA DE SURGIMENTO
+Após derrotar o caracol, a câmera aproxima o buraco.
+A cobra emerge em oito quadros. O jogador fica parado durante a cena.
+A câmera retorna e libera o combate com a barra de vida.
+A cena respeita pausa e mantém a proporção da câmera durante o zoom.
+Validação estática; teste de execução no GameMaker pendente.
+
+HISTÓRICO
+6.08 — HOMEM-COBRA
+O laboratório começa com um caracol. Ao derrotá-lo, o homem-cobra sai do buraco.
+Boss com 240 de vida, quatro direções, perseguição e golpe próximo com preparação.
+Barra de vida no topo no padrão do homem-formiga. Cano e pregos causam dano.
+Durante a luta, as saídas ficam bloqueadas. Após vencer, o buraco leva à escadaria.
+Validação estática; compilação e teste no GameMaker pendentes.
+
+HISTÓRICO
+6.07 — LABORATÓRIO AMPLIADO
+Sala ampliada de 640 x 427 para 960 x 640.
+Nova arte com experimentos mais afastados e buraco integrado à parede esquerda.
+Colisões, leituras das cápsulas, terminal, inimigos e entrada reposicionados.
+Passagem pelo buraco preservada até a escadaria final.
+Recursos e percurso verificados estaticamente; execução no GameMaker pendente.
+
+HISTÓRICO
+
+Versão 6.06 — limpeza de sprites sem uso. Veja LIMPEZA_6_06.txt.
+
+6.05 — CÂMERA DA SAÍDA CORRIGIDA
+A sala final usa escala uniforme e fica centralizada, com margens laterais.
+A câmera mostra todo o corredor e mantém a proporção durante os créditos.
+Arte, colisões e progressão mantidas da versão 6.04.
+Validação estática concluída. Execução no GameMaker pendente.
+
+HISTÓRICO
+
+6.04 — ESCADARIA
+Arte atualizada com a escada de saída ampliada e a escada de descida quebrada.
+O jogador entra pelo buraco à direita, segue para baixo e sobe a escada à esquerda.
+O trajeto de subida acompanha os degraus até a saída e inicia os créditos.
+As antigas colisões horizontais da escada foram removidas.
+A porta vermelha permanece bloqueada por pedras.
+
+Validação estática dos arquivos e percurso. Execução no GameMaker pendente.
+
+HISTÓRICO
+
+6.03 — CORREDOR DE SAÍDA
+Buraco de entrada na parede direita, parte superior.
+Escada quebrada no alto à esquerda, bloqueada por colisão.
+Porta vermelha à direita, parte inferior, obstruída por pedras.
+Escada de emergência à esquerda, parte inferior, encerra o jogo.
+O jogador chega perto do buraco e segue pelo corredor até a escada.
+
+Verificação estática dos recursos concluída. Teste no GameMaker pendente.
+
+DOCUMENTAÇÃO ANTERIOR
+
+VERSÃO 6.02 — SAÍDA FINAL
+
+Na última sala (laboratório), examine o buraco na parede esquerda com E.
+Após a fala, pressione Espaço para atravessar até o corredor de saída.
+Caminhe até a escadaria central para subir e encerrar o jogo com os créditos.
+A porta vermelha e as pedras compõem o cenário da saída.
+O encerramento provisório na fase 1 está desativado.
+
+COMO ABRIR
+Extraia o ZIP completo e abra tcc.yyp no GameMaker.
+IDE de referência registrada no projeto: 2024.14.4.222.
+Execute em Build > Run. A compatibilidade do runtime precisa ser conferida no IDE.
+
+VERIFICAÇÃO
+Recursos, referências e arquivos de projeto conferidos estaticamente.
+Compilação e teste de execução no GameMaker ainda pendentes.
+
+HISTÓRICO DAS VERSÕES ANTERIORES
+
+Versão 5.59 — Ataque do caracol
+Base: 5.56. Novo visual e animações do caracol nas quatro direções.
+
+ESCAPE THE BUNKER — 5.56
+
+Projeto acadêmico em GameMaker/GML.
+
+COMO EXECUTAR
+1. Extraia todo o ZIP para uma pasta local.
+2. Abra tcc.yyp no GameMaker. IDE de referência: 2024.14.4.222.
+3. Selecione Windows e execute em Build > Run.
+A versão exata do runtime ainda precisa ser registrada.
+
+CONTROLES
+WASD: mover | E: interagir | J: diário | Shift: furtividade
+1/2: equipar armas | Mouse: mirar
+Botão direito: atacar | Botão esquerdo: recarregar
+Espaço: avançar diálogo (arremesso do cano removido)
+Esc: pausa | F11: tela cheia
+Segure E por 3 segundos para forçar a câmara fria com o pé de cabra.
+
+ESTADO DO JOGO
+Protótipo em desenvolvimento. Os créditos na escadaria da fase 1 encerram
+a demonstração. O Boss final humano-cobra e o desfecho completo estão pendentes.
+Portas livres e encerramento na escadaria estão habilitados para testes.
+
+VERSÃO 5.56
+Documentação e comentários revisados, com textos curtos e diretos.
+Código executável, salas, artes e mecânicas iguais aos da 5.55.
+Verificação estática concluída. Compilação e execução no GameMaker pendentes.
+
+Veja README.md para instruções completas, controles, equipe e pendências.
+
+
+Ataque do caracol
+O caracol levanta o braço antes de bater no chão. O dano acontece no último quadro se o jogador continuar ao alcance e à frente, sem parede entre os dois. Durante o golpe, o caracol anda com metade da velocidade. A velocidade normal acompanha a velocidade de caminhada do jogador menos 1.
+
+
+Versão 5.60 — Prólogo
+A fachada leva à recepção. Após falar com a secretária, siga pela passagem à direita. No corredor, a porta esquerda leva à sala de espera; a direita fica trancada. O jogador pode caminhar por cinco segundos na sala de espera antes do desabamento. Pausa, diário e diálogos suspendem a contagem.
+
+
+Versão 5.61
+Atravesse a abertura lateral para ir da recepção ao corredor e voltar, sem apertar E. As portas das salas continuam usando E.
+
+
+Versão 5.62
+Corrigido o limite lateral do movimento na recepção e no corredor. O jogador agora alcança os pontos de travessia.
+
+
+Versão 5.63
+O jogador entra pelo corredor central da sala de espera, fora da área da porta de retorno. A entrada reinicia a contagem de cinco segundos até o desabamento.

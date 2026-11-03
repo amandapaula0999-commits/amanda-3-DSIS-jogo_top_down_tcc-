@@ -1,0 +1,49 @@
+{
+  "method": "GML executado em JavaScript com APIs simuladas; sem execução nativa do GameMaker.",
+  "results": [
+    {
+      "name": "Sair da pesquisa sem duto agenda pensamento no corredor",
+      "passed": true
+    },
+    {
+      "name": "Fechar pensamento libera controle e voltar a sair nao repete",
+      "passed": true
+    },
+    {
+      "name": "Atravessar duto cancela dica em ambos os sentidos",
+      "passed": true
+    },
+    {
+      "name": "Outras portas e salas nao geram dica",
+      "passed": true
+    },
+    {
+      "name": "Pensamento usa painel existente e fica oculto no pause",
+      "passed": true
+    },
+    {
+      "name": "Entrar na escadaria nao inicia fala automaticamente",
+      "passed": true
+    },
+    {
+      "name": "E junto do buraco recusa voltar; fechar nao muda de sala",
+      "passed": true
+    },
+    {
+      "name": "E longe do buraco e durante pausa nao aciona recusa",
+      "passed": true
+    },
+    {
+      "name": "Passagem original do laboratorio continua funcionando",
+      "passed": true
+    },
+    {
+      "name": "Brilho identifica alvo e desaparece apos coleta",
+      "passed": true
+    },
+    {
+      "name": "Retornar a room com kit coletado nao deixa halo orfao",
+      "passed": true
+    }
+  ]
+}

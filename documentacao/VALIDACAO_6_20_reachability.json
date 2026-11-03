@@ -1,0 +1,69 @@
+{
+  "method": "Busca em grade de 4px com mascara dos pes e paredes reais das rooms, incluindo camara fechada; nao simula inimigos.",
+  "items": [
+    {
+      "room": "Room1",
+      "instance": "inst_kit_boss1_sudoeste",
+      "x": 78,
+      "y": 550,
+      "reachable": true,
+      "nearest_reachable_distance": 2.8284271247461903
+    },
+    {
+      "room": "Room1",
+      "instance": "inst_kit_boss1_nordeste",
+      "x": 1140,
+      "y": 210,
+      "reachable": true,
+      "nearest_reachable_distance": 2.0
+    },
+    {
+      "room": "Room_Laboratorio_N2",
+      "instance": "inst_kit_lab_oeste",
+      "x": 90,
+      "y": 220,
+      "reachable": true,
+      "nearest_reachable_distance": 2.0
+    },
+    {
+      "room": "Room_Laboratorio_N2",
+      "instance": "inst_kit_lab_leste",
+      "x": 872,
+      "y": 365,
+      "reachable": true,
+      "nearest_reachable_distance": 1.0
+    },
+    {
+      "room": "Room_Laboratorio_N2",
+      "instance": "inst_kit_lab_sul",
+      "x": 585,
+      "y": 550,
+      "reachable": true,
+      "nearest_reachable_distance": 2.23606797749979
+    },
+    {
+      "room": "Room_Laboratorio_N2",
+      "instance": "inst_pregos_lab_norte",
+      "x": 330,
+      "y": 100,
+      "reachable": true,
+      "nearest_reachable_distance": 2.0
+    },
+    {
+      "room": "Room_Laboratorio_N2",
+      "instance": "inst_pregos_lab_sul",
+      "x": 875,
+      "y": 555,
+      "reachable": true,
+      "nearest_reachable_distance": 1.4142135623730951
+    },
+    {
+      "room": "Room_Manutencao_N2",
+      "instance": "inst_pregos_deposito",
+      "x": 110,
+      "y": 265,
+      "reachable": true,
+      "nearest_reachable_distance": 2.23606797749979
+    }
+  ]
+}

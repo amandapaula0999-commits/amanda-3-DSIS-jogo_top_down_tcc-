@@ -1,0 +1,45 @@
+{
+  "method": "GML executado em JavaScript com APIs simuladas; sem GameMaker nativo.",
+  "results": [
+    {
+      "name": "E guarda kit sem curar e exibe Aperte Q no topo",
+      "passed": true
+    },
+    {
+      "name": "Q cura 20% da vida maxima e gasta exatamente um kit",
+      "passed": true
+    },
+    {
+      "name": "Cura limitada ao maximo e vida cheia nao gasta kit",
+      "passed": true
+    },
+    {
+      "name": "Sem kit, morto ou jogo bloqueado nao cura nem consome",
+      "passed": true
+    },
+    {
+      "name": "ID de coleta unico impede duplicar kit e Create remove item ao voltar",
+      "passed": true
+    },
+    {
+      "name": "Parede e distancia impedem coletar kit",
+      "passed": true
+    },
+    {
+      "name": "Q pressionado uma vez nao gasta mais kits nos quadros seguintes",
+      "passed": true
+    },
+    {
+      "name": "Inventarios de kits e pregos sao independentes; caixa continua dando 14",
+      "passed": true
+    },
+    {
+      "name": "Reiniciar partida limpa kits, trocar de room preserva inventario",
+      "passed": true
+    },
+    {
+      "name": "HUD tem contador e kit usa sprite estatico sem evento Draw",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+ESCAPE THE BUNKER - 6.28 - KITS REAPARECEM APÓS MORRER
+Base: projeto completo 6.27.
+
+CORREÇÃO
+A lista global de kits recolhidos era mantida depois da morte. Ao entrar
+novamente na sala, o evento Create removia imediatamente esses kits.
+Agora a morte limpa apenas o registro de coleta dos kits antes de recarregar
+o checkpoint. Os cinco kits podem ser recolhidos novamente nos locais originais.
+Sair e entrar em uma sala sem morrer continua preservando a coleta.
+A quantidade de kits guardados segue o comportamento anterior do inventário.
+
+VERIFICAÇÃO
+Nove ciclos simulados de coleta, morte e retorno, incluindo checkpoint na
+mesma sala, em outra sala e reinício sem checkpoint. Conferida a reposição
+antes do recarregamento e a preservação dos demais dados de inventário.
+Os cinco kits estão em salas não persistentes, que recriam suas instâncias.
+Arquivos YY/YYP e referências de recursos verificados.
+Não foi possível compilar ou executar no GameMaker neste ambiente.
+
+PARA ABRIR
+Extraia toda a pasta e abra tcc.yyp no GameMaker.

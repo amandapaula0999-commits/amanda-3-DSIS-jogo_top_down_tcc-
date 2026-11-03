@@ -1,0 +1,13 @@
+{
+  "missing_references": [],
+  "changed_game_files": [
+    "scripts/Scr_colisoes/Scr_colisoes.gml",
+    "scripts/Scr_combate/Scr_combate.gml",
+    "objects/Obj_boss/Create_0.gml",
+    "objects/Obj_boss/Step_0.gml",
+    "sprites/spr_acido/spr_acido.yy"
+  ],
+  "tests_passed": 33,
+  "native_gamemaker_test": false,
+  "all_png_and_rooms_unchanged": true
+}

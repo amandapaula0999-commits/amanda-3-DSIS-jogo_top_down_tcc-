@@ -1,0 +1,53 @@
+{
+  "method": "GML attack functions executed with JavaScript engine stubs; not native GameMaker",
+  "results": [
+    {
+      "name": "Four directions select matching sprites",
+      "passed": true
+    },
+    {
+      "name": "Preparation holds position and deals no damage",
+      "passed": true
+    },
+    {
+      "name": "Dash keeps original aim, dodge succeeds, timing matches 20/30/60/120 FPS",
+      "passed": true
+    },
+    {
+      "name": "Single hit, recovery window and cooldown",
+      "passed": true
+    },
+    {
+      "name": "Invulnerable player stops dash without damage",
+      "passed": true
+    },
+    {
+      "name": "Thin wall introduced during windup stops dash and shields player",
+      "passed": true
+    },
+    {
+      "name": "Furniture prevents initiating dash",
+      "passed": true
+    },
+    {
+      "name": "Knockback cannot push through wall",
+      "passed": true
+    },
+    {
+      "name": "Pause/diary/settings/dialog/cutscene/victory freeze all attack phases",
+      "passed": true
+    },
+    {
+      "name": "Dead player cancels attack",
+      "passed": true
+    },
+    {
+      "name": "Existing melee windup is not interrupted",
+      "passed": true
+    },
+    {
+      "name": "Boss death still sets progress and destroys instance in original Step",
+      "passed": true
+    }
+  ]
+}

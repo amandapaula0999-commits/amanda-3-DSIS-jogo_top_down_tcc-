@@ -1,0 +1,17 @@
+Preparação visual: ferramenta integrada de geração/edição de imagens.
+
+Prompts resumidos usados:
+1. Recortar o bastão cinza diagonal da referência, preservar silhueta e cores simples, remover xadrez e elementos do editor, fundo transparente.
+2. Recortar a pistola de pregos da referência, corpo cinza escuro e alça laranja, sem mão, fundo transparente.
+3. Grade estreita norte-sul em metal cinza/oliva, de parede a parede, portão com cadeado, pixel art simples e fundo transparente.
+4. Escada de subida para a direita, correspondente à escada existente, degraus cinza e corrimões oliva, fundo transparente.
+5. Remover apenas cinco caixas do extremo direito do corredor e recompor o piso existente.
+
+Recursos importados (relativos à raiz do projeto):
+sprites/Spr_cano_chao/
+sprites/Spr_arma_pregos_chao/
+sprites/Spr_grade_escadaria/
+sprites/Spr_escada_subida/
+sprites/Spr_corredor_n2_cenario/
+
+Importação dos sprites com amostragem nearest-neighbor. No fundo do corredor foi substituído apenas o retângulo das caixas, preservando os demais pixels da arte original. Nenhuma rotina de desenho geométrico de cenário foi acrescentada.

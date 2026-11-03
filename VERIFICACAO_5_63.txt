@@ -1,0 +1,2 @@
+Chegada fora das colisões e da área da porta de retorno. Camada de cenário atrás do jogador. Arquivos YY validados.
+Execução no GameMaker ainda precisa ser testada.

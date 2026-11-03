@@ -1,0 +1,70 @@
+{
+  "resources": 207,
+  "existing_instances_preserved": 33,
+  "interaction_reached": [
+    84,
+    186
+  ],
+  "wall_blocks_exit": true,
+  "all_original_gml_unchanged": true,
+  "changed_files": [
+    "tcc.yyp",
+    "VERSAO.txt",
+    "tcc.resource_order",
+    "rooms/Room_Corredor_N2/Room_Corredor_N2.yy"
+  ],
+  "native_gamemaker_run": false,
+  "logic_tests": {
+    "method": "Original GML Create/Step/passagens executed with JavaScript engine stubs; not a GameMaker runtime test",
+    "cases": [
+      {
+        "portas_livres": false,
+        "pressed": true,
+        "near": true,
+        "pause": false,
+        "dialog": false,
+        "passed": true
+      },
+      {
+        "portas_livres": true,
+        "pressed": true,
+        "near": true,
+        "pause": false,
+        "dialog": false,
+        "passed": true
+      },
+      {
+        "portas_livres": false,
+        "pressed": false,
+        "near": true,
+        "pause": false,
+        "dialog": false,
+        "passed": true
+      },
+      {
+        "portas_livres": false,
+        "pressed": true,
+        "near": false,
+        "pause": false,
+        "dialog": false,
+        "passed": true
+      },
+      {
+        "portas_livres": false,
+        "pressed": true,
+        "near": true,
+        "pause": true,
+        "dialog": false,
+        "passed": true
+      },
+      {
+        "portas_livres": false,
+        "pressed": true,
+        "near": true,
+        "pause": false,
+        "dialog": true,
+        "passed": true
+      }
+    ]
+  }
+}

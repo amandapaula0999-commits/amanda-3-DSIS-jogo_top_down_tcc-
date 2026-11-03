@@ -1,0 +1,53 @@
+{
+  "method": "GML executado em JS com APIs simuladas. Sem GameMaker nativo.",
+  "results": [
+    {
+      "name": "Reproduz falha anterior: prego criado e eliminado na saida pela parede",
+      "passed": true
+    },
+    {
+      "name": "Saida bloqueada agora retorna noone antes de criar ou cobrar municao",
+      "passed": true
+    },
+    {
+      "name": "Prego livre nas quatro direcoes sai e da 5 de dano em inimigos de ambas fases",
+      "passed": true
+    },
+    {
+      "name": "Contato proximo entre pes e boca recebe dano, sem teletransporte pelo alvo",
+      "passed": true
+    },
+    {
+      "name": "Mira parte da boca e passa pelo alvo pequeno em disparo obliquo",
+      "passed": true
+    },
+    {
+      "name": "Parede fina no voo bloqueia a 20/30/60/120 FPS",
+      "passed": true
+    },
+    {
+      "name": "Raio corrigido permite saida em espaco onde raio diagonal colidia",
+      "passed": true
+    },
+    {
+      "name": "Morte do jogador impede criar prego",
+      "passed": true
+    },
+    {
+      "name": "Step real: tiro bloqueado nao desconta; livre desconta exatamente um",
+      "passed": true
+    },
+    {
+      "name": "Recarga de 14 pregos conserva reserva e respeita pente de 15",
+      "passed": true
+    },
+    {
+      "name": "Pente vazio, recarga e pausa nao criam tiro nem gastam munição",
+      "passed": true
+    },
+    {
+      "name": "Arremesso do cano preserva caminho legado",
+      "passed": true
+    }
+  ]
+}

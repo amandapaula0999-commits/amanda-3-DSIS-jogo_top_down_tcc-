@@ -1,0 +1,27 @@
+{
+  "changed_files": [
+    "rooms/Room_Saida_Final/Room_Saida_Final.yy",
+    "rooms/Room_Recepcao/Room_Recepcao.yy",
+    "rooms/Room_Ferramentas_N2/Room_Ferramentas_N2.yy",
+    "rooms/Room_Manutencao_N2/Room_Manutencao_N2.yy",
+    "rooms/Room_Biblioteca/Room_Biblioteca.yy",
+    "rooms/Room_Armadilha/Room_Armadilha.yy",
+    "rooms/Room_Corredor_N2/Room_Corredor_N2.yy",
+    "rooms/Room_Laboratorio_N2/Room_Laboratorio_N2.yy",
+    "rooms/Room_Desmoronada/Room_Desmoronada.yy",
+    "rooms/Room_Externa/Room_Externa.yy",
+    "rooms/Room_Funcionarios/Room_Funcionarios.yy",
+    "rooms/Room_Pesquisa/Room_Pesquisa.yy",
+    "rooms/Room1/Room1.yy",
+    "rooms/Room_Corredor_Pos/Room_Corredor_Pos.yy",
+    "rooms/Room_Corredor/Room_Corredor.yy",
+    "rooms/Room_Corredor_Recepcao/Room_Corredor_Recepcao.yy",
+    "objects/Obj_pause/Step_2.gml",
+    "objects/Obj_pause/Create_0.gml"
+  ],
+  "missing_references": [],
+  "tests_passed": 7,
+  "rooms_in_cycle": 16,
+  "normal_passages_and_layout_unchanged": true,
+  "native_gamemaker_test": false
+}

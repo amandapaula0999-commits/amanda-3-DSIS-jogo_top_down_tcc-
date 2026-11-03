@@ -1,0 +1,42 @@
+ESCAPE THE BUNKER — 6.24
+Extraia a pasta completa e abra tcc.yyp no GameMaker.
+
+BURACO NA ESCADARIA FINAL
+E perto do ponto de entrada exibe: Não quero voltar para aquele lugar horrível.
+A fala só começa por interação, não automaticamente ao entrar na sala.
+E ou Espaço fecha a fala; o jogador permanece na escadaria e pode continuar.
+O aviso e a fala usam o painel existente no topo, sem cobrir a saída inferior.
+
+BRILHO
+Todos os cinco kits receberam um halo claro pulsante. Ao coletar o kit, o brilho
+some no mesmo quadro; voltar à sala não cria um brilho sem item.
+As duas pontas do duto entre Room_Pesquisa e Room_Biblioteca também são destacadas.
+Os sete halos são instâncias posicionadas no editor de salas. Usam um sprite
+pré-carregado com transparência e desenho padrão, sem evento Draw/Draw GUI,
+partículas, superfícies ou geometria criada a cada quadro. Só a opacidade pulsa.
+A arte original dos kits e dos cenários permanece intacta.
+
+DICA DO DUTO
+Ao sair de Room_Pesquisa para o corredor sem ter atravessado o duto, o personagem
+pensa: Estou perdido... Havia um duto naquela sala. Talvez ele dê acesso à sala
+ao lado. É melhor voltar e conferir.
+O pensamento aparece no corredor e pode ser fechado com E ou Espaço.
+É exibido uma vez por partida; depois de usar o duto não aparece mais.
+O uso é registrado quando a travessia termina. P não dispara a dica.
+Nova partida reinicia as marcas. Voltar a uma sala preserva o progresso.
+
+VALIDAÇÃO
+11 grupos de testes de lógica passaram, executando GML em JavaScript com APIs
+simuladas. Verificados os sete halos, transparência, referências de recursos,
+instâncias, preservação de colisões/itens/arte anterior e integridade do ZIP.
+Não foi possível compilar ou executar o GameMaker neste ambiente.
+No GameMaker: testar E no buraco final; coletar kits e voltar à sala; sair da
+pesquisa sem usar o duto; depois atravessá-lo e conferir que a dica não se repete.
+
+ASSET
+Sprite: sprites/Spr_brilho_interacao/ (64x48, RGBA, origem central).
+Criado com a ferramenta integrada de geração de imagens; importação em tamanho
+reduzido com vizinho mais próximo. Prompt: One isolated pixel art highlight halo
+for a top-down retro horror game, transparent background and empty center, simple
+oval pale yellow-green luminous pixels, three stepped translucent glow bands,
+tiny four-point sparkles, chunky visible pixels, no item, text, floor or scene.

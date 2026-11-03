@@ -1,0 +1,10 @@
+{
+  "changed_files": [
+    "scripts/Scr_passagens/Scr_passagens.gml",
+    "scripts/Scr_estado_jogo/Scr_estado_jogo.gml",
+    "rooms/Room_Corredor_Pos/Room_Corredor_Pos.yy"
+  ],
+  "missing_references": [],
+  "tests_passed": 8,
+  "native_gamemaker_test": false
+}

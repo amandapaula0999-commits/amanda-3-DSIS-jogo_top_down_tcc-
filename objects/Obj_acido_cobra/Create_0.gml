@@ -1,0 +1,11 @@
+dono = noone;
+rumo = 0;
+velocidade = 210;
+dano = 16;
+raio = 4;
+tempo = 0;
+duracao = 1.8;
+desvanecer = 0.75;
+image_speed = 0;
+image_index = 0;
+image_alpha = 1;

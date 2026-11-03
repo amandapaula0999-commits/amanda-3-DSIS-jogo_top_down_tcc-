@@ -1,0 +1,322 @@
+[
+  {
+    "room": "Room_Recepcao",
+    "instance": "inst_REC_DESK",
+    "before": [
+      240,
+      139,
+      159.0,
+      43.0
+    ],
+    "after": [
+      240,
+      137,
+      160,
+      46
+    ]
+  },
+  {
+    "room": "Room_Recepcao",
+    "instance": "inst_REC_CAFE",
+    "before": [
+      39,
+      224,
+      68.0,
+      42.0
+    ],
+    "after": [
+      39,
+      211,
+      69,
+      55
+    ]
+  },
+  {
+    "room": "Room_Recepcao",
+    "instance": "inst_REC_BENCH",
+    "before": [
+      466,
+      322,
+      86.0,
+      40.0
+    ],
+    "after": [
+      466,
+      316,
+      87,
+      47
+    ]
+  },
+  {
+    "room": "Room_Recepcao",
+    "instance": "inst_REC_PLANT_NW",
+    "before": [
+      44,
+      106,
+      22.0,
+      18.0
+    ],
+    "after": [
+      34,
+      70,
+      43,
+      55
+    ]
+  },
+  {
+    "room": "Room_Recepcao",
+    "instance": "inst_REC_PLANT_NE",
+    "before": [
+      571,
+      106,
+      23.0,
+      18.0
+    ],
+    "after": [
+      566,
+      70,
+      36,
+      55
+    ]
+  },
+  {
+    "room": "Room_Recepcao",
+    "instance": "inst_REC_PLANT_SW",
+    "before": [
+      43,
+      342,
+      24.0,
+      21.0
+    ],
+    "after": [
+      33,
+      304,
+      40,
+      60
+    ]
+  },
+  {
+    "room": "Room_Recepcao",
+    "instance": "inst_REC_PLANT_SE",
+    "before": [
+      571,
+      341,
+      23.0,
+      22.0
+    ],
+    "after": [
+      564,
+      301,
+      39,
+      63
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_7",
+    "before": [
+      156,
+      90,
+      104.0,
+      28.0
+    ],
+    "after": [
+      154,
+      50,
+      107,
+      70
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_8",
+    "before": [
+      294,
+      90,
+      104.0,
+      28.0
+    ],
+    "after": [
+      292,
+      50,
+      107,
+      70
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_9",
+    "before": [
+      434,
+      90,
+      104.0,
+      28.0
+    ],
+    "after": [
+      432,
+      50,
+      107,
+      70
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_10",
+    "before": [
+      574,
+      90,
+      104.0,
+      28.0
+    ],
+    "after": [
+      572,
+      50,
+      107,
+      70
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_11",
+    "before": [
+      208,
+      212,
+      126.0,
+      62.0
+    ],
+    "after": [
+      206,
+      196,
+      129,
+      82
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_12",
+    "before": [
+      406,
+      212,
+      126.0,
+      62.0
+    ],
+    "after": [
+      404,
+      196,
+      129,
+      82
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_13",
+    "before": [
+      604,
+      212,
+      126.0,
+      62.0
+    ],
+    "after": [
+      600,
+      196,
+      129,
+      82
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_14",
+    "before": [
+      208,
+      360,
+      126.0,
+      62.0
+    ],
+    "after": [
+      206,
+      344,
+      129,
+      82
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_15",
+    "before": [
+      406,
+      360,
+      126.0,
+      62.0
+    ],
+    "after": [
+      404,
+      344,
+      129,
+      82
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_16",
+    "before": [
+      604,
+      360,
+      126.0,
+      62.0
+    ],
+    "after": [
+      600,
+      344,
+      129,
+      82
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_4",
+    "before": [
+      49,
+      112,
+      34.0,
+      25.0
+    ],
+    "after": [
+      42,
+      58,
+      46,
+      81
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_5",
+    "before": [
+      878,
+      112,
+      34.0,
+      25.0
+    ],
+    "after": [
+      875,
+      57,
+      42,
+      82
+    ]
+  },
+  {
+    "room": "Room_Biblioteca",
+    "instance": "inst_ARQ_COL_6",
+    "before": [
+      38,
+      320,
+      50.0,
+      58.0
+    ],
+    "after": [
+      38,
+      283,
+      50,
+      97
+    ]
+  }
+]

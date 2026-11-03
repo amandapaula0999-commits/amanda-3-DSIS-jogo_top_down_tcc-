@@ -1,0 +1,32 @@
+ESCAPE THE BUNKER — 6.14
+Extraia a pasta completa e abra tcc.yyp.
+
+ALTERAÇÕES
+- Fase 2: números de dano acima da cabeça dos caracóis, lagartos e Homem-Cobra.
+  O texto dura 0,65 s, sobe suavemente e desaparece, inclusive após um golpe fatal.
+  Utiliza Font_de_fala, como o feedback da fase 1. Mostra a vida efetivamente retirada.
+- Caracóis e lagartos recebem um empurrão de até 12 pixels por impacto de arma.
+  Subpassos de 1 pixel verificam paredes e outros corpos. Bosses não são empurrados.
+- Cano: área frontal de 52 pixels (40 de alcance + 12 de tolerância), abertura de
+  75 graus para cada lado da mira. Um alvo por golpe, escolhendo o mais próximo.
+  Golpes continuam bloqueados por paredes. Quadro inicial prepara; demais acertam.
+- Removida a espera adicional de 0,8 s. A animação de 0,24 s define a cadência.
+  Um clique nos últimos 0,12 s fica guardado para o golpe seguinte. Segurar o botão
+  não ativa golpes automáticos. Arremesso e finalização furtiva foram preservados.
+- O cano continua causando 4 de dano; a carapaça do boss1 continua bloqueando-o.
+- Salas, inimigos da versão 6.13, artes e ataques do boss final foram preservados.
+
+IMPLEMENTAÇÃO
+Scr_feedback_combate contém criação do texto e empurrão seguro.
+Obj_numero_dano contém apenas texto dinâmico com a fonte existente: nenhum cenário
+ou personagem novo é desenhado por código. Funciona em coordenadas da sala/câmera.
+A física e as animações dos inimigos continuam nas rotinas existentes.
+
+VALIDAÇÃO
+12 grupos de testes de lógica passaram: dano real/fatal, feedback sem duplicação,
+empurrão nas quatro direções, paredes finas, bloqueio por corpos, alcance/ângulo,
+alvo único, imunidade do boss1, barris, sequência de golpes a 30/60/120 FPS,
+clique antecipado, pausa e troca de arma.
+As funções GML foram exercitadas em JavaScript com simulação das APIs da engine.
+Referências de recursos e eventos foram verificadas e rooms comparadas com a base.
+Não houve compilação nem teste nativo: GameMaker indisponível neste ambiente.

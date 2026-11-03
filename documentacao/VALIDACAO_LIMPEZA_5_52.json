@@ -1,0 +1,30 @@
+{
+  "recursos": 190,
+  "recursos_renomeados": {
+    "Obj_area_boos": "Obj_area_boss",
+    "Spr_boos_caido": "Spr_boss_caido",
+    "Spr_sala_boos": "Spr_sala_boss",
+    "Obj_canoAremesado": "Obj_cano_arremessado",
+    "Spr_inimigo_andando_esqueda": "Spr_inimigo_andando_esquerda",
+    "Spr_inimigo_parado_esqueda": "Spr_inimigo_parado_esquerda"
+  },
+  "arquivos_excluidos": [
+    "fonts/Font_de_fala/Font_de_fala.old.png",
+    "fonts/Font_de_fala/Font_de_fala.old.yy",
+    "sprites/Spr_checkpoint/530bfdf2-8a7d-47a4-968c-ded6a1ca9ea5.png",
+    "sprites/Spr_checkpoint/Spr_checkpoint.yy",
+    "sprites/Spr_checkpoint/layers/530bfdf2-8a7d-47a4-968c-ded6a1ca9ea5/a7063918-faa6-4c13-b3b0-8c26b0c74540.png"
+  ],
+  "recursos_sem_registro": [],
+  "referencias_ausentes": [],
+  "rooms": 15,
+  "eventos": 97,
+  "frames_de_sprites": 231,
+  "gml_sem_alteracao_de_logica": 120,
+  "binarios_preservados": {
+    ".png": 501,
+    ".wav": 11,
+    ".ogg": 1
+  },
+  "limite": "Verificações estáticas e comparação integral com a versão 5.51. Não compilado nem executado no GameMaker."
+}

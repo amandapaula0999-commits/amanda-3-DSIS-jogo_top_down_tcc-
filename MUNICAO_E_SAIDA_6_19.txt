@@ -1,0 +1,35 @@
+ESCAPE THE BUNKER — 6.19
+Extraia toda a pasta e abra tcc.yyp no GameMaker.
+
+PENSAMENTO E CONTROLES
+Ao obter a pistola, o jogador pensa em economizar pregos para ameaças maiores nos
+setores de contenção. O texto tem três páginas e explica os controles reais:
+botão direito: atirar/golpear; esquerdo: recarregar; 1: cano; 2: pistola.
+Também lembra o limite de 15 pregos no pente e 14 por caixa.
+Use Espaço para avançar. A fala usa a interface existente, espera outras cenas
+ou diálogos terminarem e bloqueia movimento/combate enquanto estiver aberta.
+Só aparece uma vez por partida concluída a leitura; trocar de room ou morrer
+depois não repete a explicação. Uma nova partida reinicia esse pensamento.
+Responsabilidade isolada em Scr_tutorial_arma, com chamadas pelo Obj_mapa.
+
+ARREMESSO REMOVIDO
+O cano não pode mais ser lançado com Espaço nem por outro comando.
+O bloco de entrada, o objeto Obj_cano_arremessado e as rotinas exclusivas do
+arremesso foram removidos. O lançamento dos pregos chama bunker_lancar_prego
+diretamente. Golpes e finalização furtiva continuam disponíveis.
+Tela de controles, README e LEIA_ME foram atualizados. Notas de versões anteriores
+permanecem como histórico e não descrevem os comandos desta versão.
+
+ORIENTAÇÃO DO CIENTISTA
+A segunda fala não pede mais para encontrar um rádio. Agora orienta procurar a
+porta de emergência nos setores mais profundos, que dá acesso à escadaria para
+fora da empresa. As demais instruções de chave e escadaria entre fases permanecem.
+Esta atualização muda a orientação narrativa; não redesenha nem move a saída.
+
+VALIDAÇÃO
+32 grupos de testes de lógica passaram: tutorial, ausência de arremesso,
+combate preservado, tiros, bloqueio por paredes, consumo de munição e recarga.
+GML exercitado em JavaScript com APIs simuladas. Referências dos recursos,
+remoção do objeto antigo e integridade do ZIP verificadas.
+Nenhum sprite ou layout de room foi alterado.
+Não foi possível executar ou compilar no GameMaker neste ambiente.

@@ -1,0 +1,37 @@
+ESCAPE THE BUNKER — 6.12
+
+Abrir: extraia toda a pasta e abra tcc.yyp no GameMaker.
+
+ALTERAÇÃO
+O Homem-Cobra mantém movimento, golpe próximo e investida da versão anterior.
+O novo ataque o faz parar, preparar a boca, cuspir um projétil e se recuperar.
+A mira é fixada no início da preparação; o projétil não persegue o jogador.
+
+PARÂMETROS (scripts/Scr_cobra_acido/Scr_cobra_acido.gml)
+Chance: 40% por oportunidade válida; novo sorteio só após o intervalo de 3,8 s.
+Alcance para iniciar: 80 a 360 pixels com caminho livre.
+Preparação: 0,75 s. Recuperação: 0,65 s.
+Após cuspir há pelo menos 1,2 s antes de outra investida.
+
+PROJÉTIL (objects/Obj_acido_cobra/Create_0.gml)
+Velocidade: 210 pixels/s. Duração: 1,8 s. Alcance máximo: 378 pixels.
+Desaparece progressivamente nos últimos 0,75 s.
+Dano: 16, respeitando invulnerabilidade. Um acerto por projétil.
+Paredes e móveis com Obj_parede bloqueiam o ácido.
+Pausa, diário, configurações, diálogo e cenas interrompem o relógio do ataque.
+A morte do chefe/jogador e a troca de room eliminam os projéteis.
+
+ARTE
+Quatro sprites Spr_cobra_cuspir_* com seis quadros cada, sem ácido desenhado na boca.
+Spr_projetil_acido_cobra contém somente o projétil aprovado, importado com escala
+por vizinho mais próximo. Personagem e ácido usam sprites pré-carregados.
+Não foi adicionado evento Draw/Draw GUI: o projétil usa o desenho padrão do GameMaker.
+As salas e colisões existentes permanecem na base 6.11.
+
+VALIDAÇÃO
+24 grupos de testes de lógica passaram: 12 de regressão da investida e 12 do ácido.
+GML foi exercitado num executor JavaScript com APIs do GameMaker simuladas.
+Referências .yyp/.yy, frames, camadas e transparência foram verificadas.
+Não foi possível compilar nem executar o jogo nativamente: GameMaker ausente neste ambiente.
+No GameMaker, verificar o combate nas quatro direções, desvio, pausa, colisão com
+móveis/parede e abertura do projeto antes de publicar.

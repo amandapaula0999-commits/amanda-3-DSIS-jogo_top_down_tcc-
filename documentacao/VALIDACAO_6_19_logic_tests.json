@@ -1,0 +1,57 @@
+{
+  "method": "GML exercitado em JavaScript com APIs simuladas; sem compilacao nativa",
+  "results": [
+    {
+      "name": "Dano na fase 2 cria numero e aplica valor real, inclusive fatal",
+      "passed": true
+    },
+    {
+      "name": "Caracol da fase1 mantem texto existente sem duplicacao",
+      "passed": true
+    },
+    {
+      "name": "Empurrao 12px somente em inimigos menores",
+      "passed": true
+    },
+    {
+      "name": "Empurrao para antes de parede fina nas quatro direcoes",
+      "passed": true
+    },
+    {
+      "name": "Corpos bloqueiam empurrao",
+      "passed": true
+    },
+    {
+      "name": "Cano acerta a 50px e respeita limite 52, frente e preparo",
+      "passed": true
+    },
+    {
+      "name": "Um unico alvo e dano por animacao, mais proximo primeiro",
+      "passed": true
+    },
+    {
+      "name": "Parede bloqueia golpe ampliado",
+      "passed": true
+    },
+    {
+      "name": "Boss1 continua bloqueando cano e barril ainda cai",
+      "passed": true
+    },
+    {
+      "name": "Novo golpe apos animacao sem recarga extra em 30/60/120 FPS",
+      "passed": true
+    },
+    {
+      "name": "Clique final fica na fila, segurar nao gera ataque automatico",
+      "passed": true
+    },
+    {
+      "name": "Pausa congela golpe e numero; troca de arma cancela fila",
+      "passed": true
+    },
+    {
+      "name": "Espaco e demais teclas nao arremessam nem removem o cano",
+      "passed": true
+    }
+  ]
+}

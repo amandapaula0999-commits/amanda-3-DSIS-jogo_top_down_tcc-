@@ -1,0 +1,19 @@
+ESCAPE THE BUNKER - 6.30 - BARRIL E CAIXAS DE PREGOS
+Base: versão 6.28 enviada pelo usuário. O HUD permanece como nessa versão.
+
+ALTERAÇÕES
+- O barril volta após 20 segundos de simulação, contados a partir do
+  derramamento do ácido. Antes o intervalo era de 10 segundos.
+- As caixas de pregos reaparecem após a morte, ao carregar novamente suas
+  salas. Os kits continuam reaparecendo da mesma forma.
+- Trocar de sala sem morrer não repõe itens já coletados.
+- Cada caixa mantém 14 pregos e a arma mantém capacidade de 15.
+
+VERIFICAÇÃO
+Quatro ciclos simulados de coleta/morte/nova coleta, preservando inventário
+armazenado e evidências. Simulação do barril em 20, 30, 60 e 120 FPS:
+retorno aos 20 segundos, com pausa congelando o temporizador.
+Arquivos YY/YYP e referências verificados. Salas dos consumíveis não persistentes.
+Não houve compilação nem execução nativa no GameMaker neste ambiente.
+
+Extraia a pasta completa e abra tcc.yyp.

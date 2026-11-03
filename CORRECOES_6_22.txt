@@ -1,0 +1,41 @@
+ESCAPE THE BUNKER — 6.22
+Extraia a pasta completa e abra tcc.yyp no GameMaker.
+
+SAÍDA APÓS O SEGUNDO BOSS
+A câmera da escadaria mostra áreas além dos limites da sala estreita.
+Como a room não limpava o fundo, o último frame do laboratório permanecia ali.
+Agora a room limpa o display/viewport; o Draw Begin do mapa limpa a superfície
+com preto antes dos sprites, como já acontecia na sala de espera.
+A arte, a escala da câmera, as posições e as colisões não foram alteradas.
+
+INTERAÇÃO
+E continua sendo a tecla de usar portas, falar e coletar itens.
+O comando agora tem tolerância de 0,22 segundo ao se aproximar de um objeto.
+Uma pressão é consumida uma vez; segurar não dispara várias ações.
+Falas podem ser completadas/avançadas com E ou Espaço; a espera mínima existente
+continua respeitada, com tolerância de 0,25 segundo nas falas.
+O comando que fecha um diálogo não aciona uma porta/coleta no mesmo quadro.
+Pausa, diário, configurações, cenas e morte descartam comandos pendentes.
+O intervalo breve na sala de ferramentas não exige outro toque se E foi
+pressionado pouco antes de terminar. Portas e dutos fora de alcance não
+consomem a tecla. Aviso e ação de escadas/dutos usam a mesma área de interação.
+A câmara fria ainda exige pé de cabra e segurar E por três segundos;
+soltar E cancela o esforço. As trancas e requisitos de progressão permanecem.
+O atalho P continua percorrendo todas as 16 salas, inclusive a saída final.
+
+VALIDAÇÃO
+16 grupos de testes das mudanças e 7 grupos do atalho P passaram.
+Foram executados trechos GML em JavaScript com APIs simuladas, incluindo
+entrada no buraco, diálogo da recepção, trancas, esforço da câmara fria,
+intervalos de interação e limpeza do frame. Isto não é execução nativa.
+Referências, eventos, recursos, integridade do ZIP e preservação das rooms
+também foram verificados. Não foi possível compilar ou executar o GameMaker
+neste ambiente; é necessário conferir visualmente no runtime do projeto.
+
+ROTEIRO NO GAMEMAKER
+1. Após vencer a cobra, E no buraco; E ou Espaço confirma a passagem.
+2. A escadaria deve aparecer sobre fundo preto, sem laboratório atrás.
+3. Alternar F11, pausar/retomar e usar P para entrar/sair da última sala.
+4. Apertar E ao se aproximar de portas, ferramentas e kits.
+5. Conversar com E e Espaço; concluir sem acionar outra interação no mesmo toque.
+6. Segurar E na câmara por 3s, testar cancelamento soltando a tecla.

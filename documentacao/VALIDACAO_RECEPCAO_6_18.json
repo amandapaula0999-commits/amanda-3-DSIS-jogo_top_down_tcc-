@@ -1,0 +1,37 @@
+{
+  "method": "GML e Steps reais executados em JavaScript com APIs simuladas. Sem execucao nativa no GameMaker.",
+  "results": [
+    {
+      "name": "Sem conversar para o jogador e mostra fala sem mudar de room",
+      "passed": true
+    },
+    {
+      "name": "Fechar fala libera controle, mas insistir nao repete dialogo nem atravessa",
+      "passed": true
+    },
+    {
+      "name": "Recuar permite nova tentativa com aviso; nao bloqueia exploracao da recepcao",
+      "passed": true
+    },
+    {
+      "name": "Depois da conversa passagem a pe agenda corredor corretamente",
+      "passed": true
+    },
+    {
+      "name": "Outro dialogo, pause e morte nao disparam a fala",
+      "passed": true
+    },
+    {
+      "name": "Outras portas nao recebem bloqueio da secretaria",
+      "passed": true
+    },
+    {
+      "name": "Somente concluir as quatro falas da secretaria libera orientacao",
+      "passed": true
+    },
+    {
+      "name": "Draw GUI registrado e reutiliza caixa existente sem nova arte",
+      "passed": true
+    }
+  ]
+}

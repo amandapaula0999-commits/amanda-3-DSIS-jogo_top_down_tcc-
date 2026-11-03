@@ -1,0 +1,35 @@
+HOMEM-COBRA — INVESTIDA — VERSÃO 6.11
+
+Abrir tcc.yyp no GameMaker. Projeto completo baseado no ZIP v6.10 enviado.
+O ataque pertence ao chefe final, no encontro já existente em Room_Laboratorio_N2.
+O surgimento e a condição de início do encontro foram preservados.
+
+COMPORTAMENTO
+- O chefe mantém a perseguição e o golpe curto existentes.
+- A investida é liberada após 2 segundos de combate, a uma distância de 64 a 260 pixels e com caminho livre.
+- Preparação: 0,60 segundo, sem deslocamento nem dano. A direção fica fixada; o jogador pode sair da trajetória.
+- Avanço: até 0,42 segundo a 450 pixels por segundo (189 pixels no máximo).
+- Dano: 24, no máximo uma vez por investida, respeitando a invulnerabilidade existente.
+- Ao encostar no jogador ou em uma parede/móvel, o avanço termina.
+- Empurrão de 12 pixels com a rotina segura de colisão do jogo.
+- Recuperação: 0,70 segundo parado e vulnerável ao jogador.
+- Intervalo até preparar outra investida: 2,40 segundos após a recuperação.
+- Pausa, diário, configurações, diálogo e cenas interrompem o relógio do ataque.
+
+ARTE E ORGANIZAÇÃO
+As animações aprovadas de frente e costas e a folha lateral enviada foram importadas.
+A direção esquerda usa a folha lateral espelhada. São 6 quadros por direção.
+Quadros cortados e alinhados em telas transparentes de 160x160; escala de importação fixa.
+O tamanho da tela inclui margem transparente; o corpo continua na escala dos sprites existentes.
+As máscaras de colisão, as salas, os desenhos dos cenários e os demais inimigos não foram alterados.
+Nenhum sprite é criado ou carregado de arquivo durante o combate.
+Não há novas rotinas Draw/Draw GUI: o chefe usa os sprites pré-carregados com o Draw existente.
+Lógica do ataque: Scr_cobra_combate. Parâmetros reunidos em cobra_combate_iniciar.
+
+VERIFICAÇÃO
+24 quadros e seus arquivos de camadas/referências conferidos.
+12 grupos de testes de lógica: direção, preparação, esquiva, 20/30/60/120 FPS,
+acerto único, invulnerabilidade, parede fina, móveis, empurrão, pausas, morte e golpe curto.
+Os testes executam a lógica com simulações das funções da engine; não são execução nativa.
+GameMaker/Igor não está disponível neste ambiente. É necessário conferir o jogo na engine.
+Relatório: documentacao/VALIDACAO_DASH_COBRA_6_11.json.

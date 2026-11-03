@@ -1,0 +1,17 @@
+{
+  "base": "5.49 PAUSA_SEPARADA",
+  "profundidade_anterior": -100000,
+  "profundidade_corrigida": -10000,
+  "faixa_documentada": [
+    -16000,
+    16000
+  ],
+  "objeto_visivel": true,
+  "draw_gui_registrado": true,
+  "sprites_do_menu_presentes": true,
+  "arquivos_identicos_a_base": 812,
+  "arquivos_modificados": [
+    "objects/Obj_jogador/Create_0.gml"
+  ],
+  "limite": "Verificação estática. Sem compilação ou execução no GameMaker. A simulação de entradas da versão anterior não testava o limite de profundidade de desenho."
+}

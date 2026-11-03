@@ -1,0 +1,26 @@
+{
+  "recursos": 234,
+  "referencias": 2965,
+  "instancias": 419,
+  "arquivos_estruturais": 241,
+  "colisoes": "Grade intransponível fechada; interação alcançável; escadas e retorno alcançáveis; chegada livre; corredor N2 conectado.",
+  "arquivos_modificados": [
+    "objects/Obj_acesso_escada_n2_visual/Obj_acesso_escada_n2_visual.yy",
+    "objects/Obj_armaPregos/Create_0.gml",
+    "objects/Obj_armaPregos/Obj_armaPregos.yy",
+    "objects/Obj_armaPregos/Step_0.gml",
+    "objects/Obj_cano/Create_0.gml",
+    "objects/Obj_cano/Obj_cano.yy",
+    "objects/Obj_cano/Step_0.gml",
+    "rooms/Room_Corredor_N2/Room_Corredor_N2.yy",
+    "rooms/Room_Corredor_Pos/Room_Corredor_Pos.yy",
+    "scripts/Scr_estado_jogo/Scr_estado_jogo.gml",
+    "scripts/Scr_passagens/Scr_passagens.gml",
+    "scripts/Scr_personagens_visual/Scr_personagens_visual.gml",
+    "sprites/Spr_corredor_n2_cenario/bd893300-4b6c-4703-b63e-238e348d7ac6.png",
+    "sprites/Spr_corredor_n2_cenario/layers/bd893300-4b6c-4703-b63e-238e348d7ac6/07a13b61-f61d-43a7-884c-787ae4756202.png",
+    "tcc.resource_order",
+    "tcc.yyp"
+  ],
+  "GameMaker": "Runtime indisponível; validação estrutural, simulações da lógica e navegação geométrica."
+}

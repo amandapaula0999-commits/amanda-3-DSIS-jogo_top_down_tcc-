@@ -1,0 +1,2 @@
+Limite lateral e colisões das duas passagens verificados por simulação de coordenadas. Recursos YY conferidos.
+Não executado no GameMaker neste ambiente.

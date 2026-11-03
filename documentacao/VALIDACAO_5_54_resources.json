@@ -1,0 +1,11 @@
+{
+  "resources": 198,
+  "rooms": 15,
+  "doors": 24,
+  "editor_markers": 70,
+  "sprite_frames": 234,
+  "events": 103,
+  "functions": 101,
+  "unchanged_art_files": 514,
+  "errors": []
+}

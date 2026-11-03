@@ -1,0 +1,41 @@
+{
+  "method": "GML executado em JS com APIs simuladas; contato preciso simulado com alpha real do PNG. Sem GameMaker nativo.",
+  "results": [
+    {
+      "name": "Hitbox acompanha o sprite caido e amplia 8px por lado",
+      "passed": true
+    },
+    {
+      "name": "Cano acerta borda nas quatro direcoes sem sobrepor o boss",
+      "passed": true
+    },
+    {
+      "name": "Limite de alcance, frente e um golpe por animacao preservados",
+      "passed": true
+    },
+    {
+      "name": "Parede fina bloqueia mesmo com a hitbox ampliada",
+      "passed": true
+    },
+    {
+      "name": "Canto transparente: retangulo antigo colidia, novo contato nao derruba",
+      "passed": true
+    },
+    {
+      "name": "Corpo por cima da poca mas pes fora nao derruba",
+      "passed": true
+    },
+    {
+      "name": "Pes no acido visivel causam 35 de dano e queda",
+      "passed": true
+    },
+    {
+      "name": "Poca nao repete dano ao levantar; outra poca respeita recarga",
+      "passed": true
+    },
+    {
+      "name": "Mascara precisa pre-carregada segue alpha; movimento nao ampliado",
+      "passed": true
+    }
+  ]
+}

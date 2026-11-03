@@ -1,0 +1,16 @@
+PORTA DE EMERGÊNCIA — VERSÃO 6.01
+
+Abra tcc.yyp no GameMaker.
+Room alterada: Room_Corredor_N2.
+Local: parede lateral esquerda, centro da passagem entre as caixas e o barril.
+Chegue perto e pressione E: aparece ESTA PORTA ESTÁ TRANCADA e toca o som de acesso negado.
+A porta permanece fechada mesmo com a configuração de teste portas_livres ativada.
+
+Arte estática: Spr_porta_emergencia_lateral / Obj_porta_emergencia_visual.
+Interação: inst_PORTA_EMERGENCIA_TRANCADA, usando Obj_porta e chave_exigida = "fechada".
+Colisão: mantida a parede existente inst_N2_OESTE (Obj_parede).
+Ambas as instâncias estão no editor da Room. Nenhum desenho geométrico por código foi adicionado.
+O cenário, as demais portas, os pontos de entrada e todos os scripts GML da versão enviada foram preservados.
+
+Validação: recursos, referências, imagens, posicionamento, acesso à interação e bloqueio conferidos.
+Não foi possível compilar ou executar no GameMaker neste ambiente.

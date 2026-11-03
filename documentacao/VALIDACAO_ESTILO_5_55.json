@@ -1,0 +1,637 @@
+[
+  {
+    "arquivo": "objects/Obj_boss/CleanUp_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_boss/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_boss/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 6
+  },
+  {
+    "arquivo": "objects/Obj_boss/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_boss/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  },
+  {
+    "arquivo": "objects/Obj_boss/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_arquivos_cenario/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_ponto_mapa/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_feedback_funcionarios/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_barril/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_barril/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_barril/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_barril/Other_7.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_pesquisa_cenario/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_recepcionista/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_recepcionista/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_recepcionista/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_acido/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_acido/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_acido/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_sala1_cenario/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_porta/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_porta/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_porta/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_sala10_feedback/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_sala10_feedback/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_porta_manutencao/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_porta_manutencao/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_porta_manutencao/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_bloqueio_arena/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_bloqueio_arena/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cano/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cano/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "objects/Obj_cano/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  },
+  {
+    "arquivo": "objects/Obj_cano_arremessado/Step_2.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cano_arremessado/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cano_arremessado/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cano_arremessado/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_pause/Step_2.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_pause/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "objects/Obj_pause/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_pause/Step_1.gml",
+    "tokens_iguais": true,
+    "regioes": 7
+  },
+  {
+    "arquivo": "objects/Obj_cientista2/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 5
+  },
+  {
+    "arquivo": "objects/Obj_cientista2/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cientista2/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "objects/Obj_sala_manutencao_cenario/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_fachada_cenario/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_caracol/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_caracol/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 6
+  },
+  {
+    "arquivo": "objects/Obj_caracol/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_caracol/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_bloqueio_camara/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Draw_75.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 8
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Collision_Obj_boss.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Collision_Obj_caracol.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 7
+  },
+  {
+    "arquivo": "objects/Obj_jogador/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_mapa/Draw_73.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_mapa/Draw_72.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_mapa/Other_4.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_mapa/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 4
+  },
+  {
+    "arquivo": "objects/Obj_mapa/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 6
+  },
+  {
+    "arquivo": "objects/Obj_mapa/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_mapa/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_armaPregos/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_armaPregos/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "objects/Obj_armaPregos/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "objects/Obj_bala/Step_2.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_bala/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_bala/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_bala/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_checkpoint/Collision_Obj_jogador.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_checkpoint/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_hitbox/Step_2.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_hitbox/Alarm_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_hitbox/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_hitbox/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_espera_cenario/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_homem_lagarto/CleanUp_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_homem_lagarto/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_homem_lagarto/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_caracol_lab/CleanUp_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_caracol_lab/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_caracol_lab/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_corredor1_cenario/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_chave_1/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_chave_1/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_parede/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_parede/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_chave_escadaria/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_chave_escadaria/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_chave_escadaria/Draw_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_boss_morto/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cientista1/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 5
+  },
+  {
+    "arquivo": "objects/Obj_cientista1/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_cientista1/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  },
+  {
+    "arquivo": "objects/Obj_caixaPregos/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "objects/Obj_menu/Step_0.gml",
+    "tokens_iguais": true,
+    "regioes": 8
+  },
+  {
+    "arquivo": "objects/Obj_menu/Draw_64.gml",
+    "tokens_iguais": true,
+    "regioes": 8
+  },
+  {
+    "arquivo": "objects/Obj_menu/Create_0.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "scripts/Scr_debug/Scr_debug.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "scripts/Scr_visual_bunker/Scr_visual_bunker.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "scripts/Scr_cenario_dinamico/Scr_cenario_dinamico.gml",
+    "tokens_iguais": true,
+    "regioes": 1
+  },
+  {
+    "arquivo": "scripts/Scr_deposito/Scr_deposito.gml",
+    "tokens_iguais": true,
+    "regioes": 5
+  },
+  {
+    "arquivo": "scripts/Scr_mapa_pontos/Scr_mapa_pontos.gml",
+    "tokens_iguais": true,
+    "regioes": 4
+  },
+  {
+    "arquivo": "scripts/Scr_ferramentas/Scr_ferramentas.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "scripts/Scr_menu_cartoes/Scr_menu_cartoes.gml",
+    "tokens_iguais": true,
+    "regioes": 7
+  },
+  {
+    "arquivo": "scripts/Scr_progressao/Scr_progressao.gml",
+    "tokens_iguais": true,
+    "regioes": 4
+  },
+  {
+    "arquivo": "scripts/Scr_passagens_visual/Scr_passagens_visual.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  },
+  {
+    "arquivo": "scripts/Scr_coletas/Scr_coletas.gml",
+    "tokens_iguais": true,
+    "regioes": 4
+  },
+  {
+    "arquivo": "scripts/Scr_combate/Scr_combate.gml",
+    "tokens_iguais": true,
+    "regioes": 5
+  },
+  {
+    "arquivo": "scripts/Scr_personagens_visual/Scr_personagens_visual.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "scripts/Scr_boss_movimento/Scr_boss_movimento.gml",
+    "tokens_iguais": true,
+    "regioes": 4
+  },
+  {
+    "arquivo": "scripts/Scr_laboratorio/Scr_laboratorio.gml",
+    "tokens_iguais": true,
+    "regioes": 4
+  },
+  {
+    "arquivo": "scripts/Scr_estado_jogo/Scr_estado_jogo.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "scripts/Scr_percepcao/Scr_percepcao.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  },
+  {
+    "arquivo": "scripts/Scr_colisoes/Scr_colisoes.gml",
+    "tokens_iguais": true,
+    "regioes": 21
+  },
+  {
+    "arquivo": "scripts/Scr_passagens/Scr_passagens.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "scripts/Scr_vitoria/Scr_vitoria.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  },
+  {
+    "arquivo": "scripts/Scr_camera/Scr_camera.gml",
+    "tokens_iguais": true,
+    "regioes": 3
+  },
+  {
+    "arquivo": "scripts/Scr_audio/Scr_audio.gml",
+    "tokens_iguais": true,
+    "regioes": 7
+  },
+  {
+    "arquivo": "scripts/Scr_interface_mensagens/Scr_interface_mensagens.gml",
+    "tokens_iguais": true,
+    "regioes": 7
+  },
+  {
+    "arquivo": "scripts/Scr_checkpoints/Scr_checkpoints.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  },
+  {
+    "arquivo": "scripts/Scr_configuracoes/Scr_configuracoes.gml",
+    "tokens_iguais": true,
+    "regioes": 2
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "base": "6.23",
+  "version": "6.24",
+  "changed_files": [
+    "tcc.yyp",
+    "tcc.resource_order",
+    "scripts/Scr_estado_jogo/Scr_estado_jogo.gml",
+    "scripts/Scr_passagens/Scr_passagens.gml",
+    "objects/Obj_porta/Step_0.gml",
+    "objects/Obj_passagem_final/Create_0.gml",
+    "objects/Obj_passagem_final/Step_0.gml",
+    "objects/Obj_passagem_final/Draw_64.gml",
+    "objects/Obj_mapa/Other_4.gml",
+    "objects/Obj_mapa/Step_0.gml",
+    "objects/Obj_mapa/Draw_64.gml",
+    "rooms/Room1/Room1.yy",
+    "rooms/Room_Laboratorio_N2/Room_Laboratorio_N2.yy",
+    "rooms/Room_Pesquisa/Room_Pesquisa.yy",
+    "rooms/Room_Biblioteca/Room_Biblioteca.yy"
+  ],
+  "missing_references": [],
+  "halos": {
+    "kit": 5,
+    "duto": 2
+  },
+  "logic_tests_passed": 11,
+  "native_gamemaker_test": false
+}

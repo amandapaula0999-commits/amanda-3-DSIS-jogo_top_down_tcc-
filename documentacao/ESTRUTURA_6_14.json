@@ -1,0 +1,14 @@
+{
+  "resources": 221,
+  "missing_references": [],
+  "changed_existing_files": [
+    "tcc.resource_order",
+    "tcc.yyp",
+    "scripts/Scr_combate/Scr_combate.gml",
+    "scripts/Scr_colisoes/Scr_colisoes.gml",
+    "objects/Obj_cano/Create_0.gml",
+    "objects/Obj_cano/Step_0.gml"
+  ],
+  "rooms_unchanged": true,
+  "native_gamemaker_test": false
+}

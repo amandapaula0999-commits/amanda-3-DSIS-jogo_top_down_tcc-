@@ -1,0 +1,42 @@
+{
+  "estrutural": {
+    "resources": 174,
+    "parsed_resources": 182,
+    "sprite_frames": 232,
+    "rooms": 15,
+    "events": 97,
+    "unchanged_art_files": 618,
+    "unchanged_room_files": 15,
+    "changed_files": [
+      "objects/Obj_jogador/Draw_64.gml",
+      "objects/Obj_jogador/Create_0.gml",
+      "objects/Obj_jogador/Step_0.gml",
+      "objects/Obj_pause/Obj_pause.yy",
+      "objects/Obj_pause/Step_2.gml",
+      "objects/Obj_pause/Step_1.gml",
+      "objects/Obj_pause/Draw_64.gml",
+      "objects/Obj_pause/Create_0.gml"
+    ],
+    "errors": [],
+    "runtime": "GameMaker/Igor unavailable. Not compiled or run in GameMaker."
+  },
+  "menus": {
+    "passed": 13,
+    "tests": [
+      "ESC congela jogador, inimigos e temporizadores antes do Step",
+      "ESC retoma no próximo quadro sem reabrir o menu",
+      "Enter e Espaço não vazam para combate no quadro da confirmação",
+      "Navegação teclado nos quatro cartões",
+      "Configurações: alternar música/efeitos, ESC volta à pausa",
+      "Mouse nos cartões em 1366x768 e 1920x1080",
+      "Mouse nas configurações em 1920x1080",
+      "Gamepad: D-pad, confirmação, analógico sem repetição e reconexão",
+      "Diário vazio e limites de páginas; J e ESC fecham",
+      "Sem abertura durante diálogo, cena ou finalização furtiva",
+      "Reiniciar e menu executam depois dos Steps congelados",
+      "P funciona jogando, pausado, no diário, nas configurações e em cena",
+      "F11 funciona durante a pausa"
+    ],
+    "scope": "Execução dos eventos GML traduzidos para JavaScript, com APIs da engine simuladas. Não é compilação ou teste nativo GameMaker."
+  }
+}

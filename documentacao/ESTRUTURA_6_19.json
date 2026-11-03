@@ -1,0 +1,29 @@
+{
+  "changed_files": [
+    "README.md",
+    "LEIA_ME.txt",
+    "tcc.yyp",
+    "objects/Obj_armaPregos/Step_0.gml",
+    "objects/Obj_cano/Create_0.gml",
+    "objects/Obj_cano/Step_0.gml",
+    "objects/Obj_menu/Draw_64.gml",
+    "objects/Obj_cientista1/Create_0.gml",
+    "objects/Obj_mapa/Draw_64.gml",
+    "objects/Obj_mapa/Create_0.gml",
+    "objects/Obj_mapa/Step_0.gml",
+    "scripts/Scr_laboratorio/Scr_laboratorio.gml",
+    "scripts/Scr_estado_jogo/Scr_estado_jogo.gml",
+    "scripts/Scr_colisoes/Scr_colisoes.gml"
+  ],
+  "removed_files": [
+    "objects/Obj_cano_arremessado/Alarm_0.gml",
+    "objects/Obj_cano_arremessado/Draw_0.gml",
+    "objects/Obj_cano_arremessado/Create_0.gml",
+    "objects/Obj_cano_arremessado/Step_2.gml",
+    "objects/Obj_cano_arremessado/Obj_cano_arremessado.yy"
+  ],
+  "missing_references": [],
+  "tests_passed": 32,
+  "native_gamemaker_test": false,
+  "rooms_and_sprites_unchanged": true
+}

@@ -1,0 +1,11 @@
+Arte editada/gerada com a ferramenta integrada ImageGen.
+Prompt lateral/traseiro: remover somente gotas, jato e projéteis; preservar identidade,
+poses, paleta, escala e disposição de seis quadros. Fundo transparente, pixel art simples.
+Prompt frontal: usar o personagem original de frente e as poses de preparação, boca
+aberta, soltura e recuperação do cuspe, sem ácido acoplado, com seis quadros 3x2.
+O PNG frontal anterior estava truncado; a variante frontal foi produzida a partir da
+folha original do personagem e da animação lateral, preservando seu desenho.
+Importação: quadros 160x160, fator fixo 0,20, ancoragem relativa à arte de movimento,
+sem alterar as máscaras físicas. O projétil separado tem 34x12 pixels.
+Recursos finais: sprites/Spr_cobra_cuspir_baixo, Spr_cobra_cuspir_cima,
+Spr_cobra_cuspir_direita, Spr_cobra_cuspir_esquerda e Spr_projetil_acido_cobra.

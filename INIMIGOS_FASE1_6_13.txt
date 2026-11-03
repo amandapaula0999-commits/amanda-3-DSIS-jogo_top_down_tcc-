@@ -1,0 +1,20 @@
+ESCAPE THE BUNKER — 6.13
+Extraia a pasta inteira e abra tcc.yyp.
+
+DISTRIBUIÇÃO DA FASE 1
+Sala da queda (Room_Desmoronada): 0 inimigos.
+Corredor anterior aos escombros (Room_Corredor): 0 inimigos.
+Sala anterior ao duto (Room_Pesquisa): 0 inimigos.
+Sala do cientista, depois do duto (Room_Biblioteca): 1 criatura, mantida.
+Corredor do outro lado dos escombros (Room_Corredor_Pos): 2 criaturas.
+O boss da fase 1 foi mantido. A fase 2 e o ataque de ácido da versão 6.12 foram mantidos.
+
+Todas as alterações foram feitas em instâncias de rooms, editáveis no Room Editor.
+Nenhuma rotina de criação de inimigos por código foi adicionada.
+A criatura do cientista continua vinculada à liberação do diálogo após ser derrotada.
+
+VALIDAÇÃO
+Contagem por sala, ordem de criação, ausência de instâncias duplicadas, máscaras de
+nascimento fora das paredes e distância dos pontos de entrada foram verificadas.
+Arte, colisões, portas, scripts, boss e fase 2 foram comparados com a base e preservados.
+O GameMaker não está disponível neste ambiente; não houve compilação nem teste nativo.

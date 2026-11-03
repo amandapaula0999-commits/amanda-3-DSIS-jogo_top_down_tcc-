@@ -1,0 +1,35 @@
+ESCAPE THE BUNKER — 6.15
+Extraia a pasta completa e abra tcc.yyp no GameMaker.
+
+MUNIÇÃO
+Cada caixa fornece 14 pregos. As duas caixas das rooms e o valor padrão foram atualizados.
+O pente comporta no máximo 15. A recarga transfere apenas o necessário da reserva.
+A coleta com pente vazio mantém a recarga automática existente, agora com limite 15.
+Contagem de caixas usa 14 por caixa. Arma começa com os mesmos 4 pregos anteriores.
+Constantes: bunker_capacidade_pregos() e bunker_pregos_por_caixa(), em Scr_coletas.
+
+CAUSA E CORREÇÃO
+O lançamento anterior validava apenas um ponto inicial nos pés (ou ao redor deles).
+A munição era debitada assim que a instância era criada. Só no End Step o projétil
+percorria a ligação entre esse ponto e a boca da arma, podendo bater em parede/móvel
+antes da primeira exibição e desaparecer sem causar dano a um inimigo.
+Esse caso foi reproduzido no executor de testes, com o código anterior.
+
+Agora todo o trecho de saída é verificado ANTES da criação e do débito. Se a boca ou
+esse trecho estiverem bloqueados, o disparo é recusado sem perder munição.
+O raio do prego passa de 6 (diagonal do sprite) para 2 pixels, compatível com sua
+espessura visual. Isso evita colisões exageradas junto das paredes.
+A direção de voo parte da boca da arma até a posição da mira, corrigindo o desvio
+em tiros próximos causado pela direção calculada a partir do corpo do jogador.
+O prego é desenhado na frente do jogador. A varredura contínua até a boca foi mantida
+para acertar inimigos muito próximos, sem atravessá-los ao criar a bala.
+Paredes seguem bloqueando o voo. O dano permanece em 5. O arremesso do cano foi mantido.
+
+VALIDAÇÃO
+12 grupos de testes passaram: reprodução da falha anterior, cancelamento sem débito,
+quatro direções e inimigos das duas fases, contato próximo, mira oblíqua, paredes finas
+em 20/30/60/120 FPS, espessura do prego, jogador morto, débito no Step da arma,
+recargas parciais, pente vazio/pausa/recarga e preservação do arremesso.
+Funções GML e eventos da arma executados com APIs da engine simuladas em JavaScript.
+Referências de recursos, ZIP e alterações das rooms verificadas.
+Não foi possível compilar nem executar no GameMaker, ausente neste ambiente.

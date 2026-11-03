@@ -1,0 +1,44 @@
+[
+  {
+    "room": "Room1",
+    "type": "kit",
+    "x": 78,
+    "y": 550
+  },
+  {
+    "room": "Room1",
+    "type": "kit",
+    "x": 1140,
+    "y": 210
+  },
+  {
+    "room": "Room_Laboratorio_N2",
+    "type": "kit",
+    "x": 90,
+    "y": 220
+  },
+  {
+    "room": "Room_Laboratorio_N2",
+    "type": "kit",
+    "x": 872,
+    "y": 365
+  },
+  {
+    "room": "Room_Laboratorio_N2",
+    "type": "kit",
+    "x": 585,
+    "y": 550
+  },
+  {
+    "room": "Room_Pesquisa",
+    "type": "duto",
+    "x": 554,
+    "y": 320
+  },
+  {
+    "room": "Room_Biblioteca",
+    "type": "duto",
+    "x": 96,
+    "y": 536
+  }
+]

@@ -1,0 +1,25 @@
+ESCAPE THE BUNKER — 6.21
+Extraia a pasta completa e abra tcc.yyp no GameMaker.
+
+P AVANÇA UMA SALA POR PRESSIONAMENTO
+Fachada -> Recepção -> Corredor da recepção -> Sala de espera -> Sala da queda
+-> Corredor da fase 1 -> Pesquisa -> Biblioteca/arquivos após o duto -> Boss 1
+-> Corredor após o boss -> Corredor da fase 2 -> Depósito -> Sala de descanso
+-> Ferramentas -> Laboratório/boss final -> Sala da saída após o buraco -> Fachada.
+
+O laboratório antes apontava diretamente à fachada. Agora P leva à Room_Saida_Final,
+no mesmo ponto de chegada usado pela passagem normal através do buraco.
+Outros atalhos que voltavam cedo à fachada também foram corrigidos.
+P funciona durante diálogos, cenas, pausa e créditos, liberando as travas temporárias.
+Vida, kits, munição e progresso permanecem. Não concede chaves nem marca bosses como
+mortos: é apenas o atalho de testes, independente das exigências da tecla E.
+Cada destino e ponto de chegada continua configurado no editor de salas.
+A leitura do roteiro ocorre no End Step, depois de reativar Obj_mapa, para funcionar
+mesmo quando a pausa tinha desativado as instâncias.
+
+VALIDAÇÃO
+7 grupos de testes passaram, incluindo o ciclo completo das 16 salas, marcadores,
+execução das funções GML, End Step, preservação do inventário e limpeza das travas.
+GML exercitado em JavaScript com APIs simuladas. Referências de recursos e ZIP
+verificados. Layouts, colisões, itens, sprites e passagens normais preservados.
+Não foi possível executar nem compilar no GameMaker neste ambiente.

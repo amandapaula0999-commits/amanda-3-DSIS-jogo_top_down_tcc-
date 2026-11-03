@@ -1,0 +1,20 @@
+{
+  "versao": "6.25",
+  "instancias_corrigidas": 7,
+  "salas_corrigidas": [
+    "rooms/Room_Pesquisa/Room_Pesquisa.yy",
+    "rooms/Room_Biblioteca/Room_Biblioteca.yy",
+    "rooms/Room1/Room1.yy",
+    "rooms/Room_Laboratorio_N2/Room_Laboratorio_N2.yy"
+  ],
+  "arquivos_estruturais_validados": 235,
+  "instancias_com_esquema_v4_uniforme": 419,
+  "referencias_validadas": 2930,
+  "arquivos_originais_alterados": [
+    "rooms/Room1/Room1.yy",
+    "rooms/Room_Biblioteca/Room_Biblioteca.yy",
+    "rooms/Room_Laboratorio_N2/Room_Laboratorio_N2.yy",
+    "rooms/Room_Pesquisa/Room_Pesquisa.yy"
+  ],
+  "compilacao_GameMaker": "Não executada: runtime indisponível neste ambiente."
+}

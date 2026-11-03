@@ -1,0 +1,22 @@
+ESCAPE THE BUNKER — 6.18
+Extraia toda a pasta e abra tcc.yyp no GameMaker.
+
+Ao tentar atravessar da recepção para o corredor sem concluir a conversa com a
+secretária, o jogador para na entrada e pensa:
+“É melhor falar com a secretária primeiro. Ainda não sei exatamente para onde devo ir.”
+A fala usa a mesma interface de diálogo da secretária. Espaço ou E fecha a fala.
+O jogador pode voltar e explorar a recepção. Insistir na passagem segurando D não
+repete o diálogo continuamente; um novo aviso é permitido após recuar 20 pixels.
+A passagem só é liberada quando as quatro falas da secretária são concluídas.
+Depois disso, a travessia a pé funciona normalmente, sem precisar apertar E.
+Voltar à fachada e as demais portas mantêm suas regras anteriores.
+O bloqueio narrativo também funciona se portas_livres for ativado manualmente.
+O atalho P de teste permanece separado. Nenhum sprite ou colisão física foi alterado.
+
+VALIDAÇÃO
+8 grupos de testes passaram: bloqueio e fala, fechamento, repetição controlada,
+passagem após conversa, pausa/outro diálogo/morte, demais portas, conclusão da
+conversa real e registro do evento Draw GUI com a interface existente.
+Eventos GML executados em JavaScript com APIs da engine simuladas.
+Referências dos recursos e integridade do ZIP verificadas. Não foi possível
+compilar ou executar no GameMaker neste ambiente.

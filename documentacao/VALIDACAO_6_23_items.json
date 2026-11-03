@@ -1,0 +1,21 @@
+{
+  "one_gun_in_tools_room": true,
+  "phase1_ammo_boxes": 0,
+  "phase2_boxes": 4,
+  "nails_per_box": 14,
+  "reachable_items": [
+    {
+      "object": "Obj_armaPregos",
+      "x": 330,
+      "y": 180,
+      "distance_to_reachable_ground": 0.0
+    },
+    {
+      "object": "Obj_caixaPregos",
+      "x": 451,
+      "y": 271,
+      "distance_to_reachable_ground": 1.4142135623730951
+    }
+  ],
+  "method": "BFS de 2px usando paredes reais e máscara dos pés; sem simular inimigos."
+}

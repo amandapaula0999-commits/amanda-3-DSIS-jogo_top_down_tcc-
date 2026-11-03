@@ -1,0 +1,24 @@
+ESCAPE THE BUNKER — 6.17
+Extraia a pasta inteira e abra tcc.yyp no GameMaker.
+
+As trancas de progressão voltaram: portas_livres agora inicia em false.
+Uma partida nova também restaura essa regra, preservando as opções de áudio.
+A escadaria exige a chave encontrada na cela da sala do boss e a saída da arena
+liberada após o combate. Sem chave, E mostra que falta a chave da sala do boss.
+Com as condições cumpridas, E inicia a descida até Room_Corredor_N2, usando o ponto
+entrada_corredor_pos_2 (1030,186) já colocado no editor de salas.
+O checkpoint é agendado na entrada e vida, inventário e progresso são preservados.
+O retorno pela escadaria continua disponível no corredor da fase 2.
+Os créditos temporários na escadaria permanecem desativados. O rótulo antigo
+FIM DESTA VERSÃO foi corrigido para ESCADARIA / DESCER AO NÍVEL 2.
+O atalho P de avanço de sala continua sendo um recurso de teste separado.
+Chaves do cientista e das ferramentas, crachá da pesquisa, pé de cabra e portas
+permanentemente fechadas mantêm suas respectivas regras. A arena tranca ao coletar
+a chave e libera sua saída quando o boss rompe a contenção.
+
+VALIDAÇÃO
+8 grupos de testes passaram, usando funções GML em JavaScript com APIs simuladas:
+estado inicial/reinício, combinação de chave e boss, demais trancas, aviso sem chave,
+transição com E, pausa, destinos reais das rooms e retorno preservando progresso.
+Referências dos recursos e integridade do ZIP verificadas. Sprites e colisões da
+versão 6.16 preservados. Não foi possível executar ou compilar no GameMaker aqui.

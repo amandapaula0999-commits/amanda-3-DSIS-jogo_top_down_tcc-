@@ -1,0 +1,4 @@
+Referências de recursos, arquivos YY/YYP e quadros dos sprites conferidos.
+Temporização do impacto simulada em diferentes passos de tempo.
+Projeto não compilado nem executado no GameMaker neste ambiente.
+No GameMaker: verificar ataque nas quatro direções, esquiva, paredes, pausa, morte e caracol do laboratório.

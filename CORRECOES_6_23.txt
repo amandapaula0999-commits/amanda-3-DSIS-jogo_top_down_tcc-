@@ -1,0 +1,41 @@
+ESCAPE THE BUNKER — 6.23
+Extraia a pasta completa e abra tcc.yyp no GameMaker.
+
+INVESTIDA DO BOSS COBRA
+A detecção anterior usava somente a pequena máscara dos pés. A nova detecção
+varre a frente do sprite da investida contra o corpo do jogador, em subpassos.
+O contato físico que bloqueia o movimento também é tratado como acerto.
+A cauda não funciona como ataque para trás. Paredes continuam bloqueando dano.
+O dano permanece em 24 pontos, no máximo uma vez por investida, respeitando
+a invulnerabilidade temporária. O empurrão continua testando as colisões.
+Tempos de preparação, velocidade, recuperação, ácido e arte foram preservados.
+
+ARMA E MUNIÇÃO
+A única pistola de pregos que fica no cenário foi movida da sala da queda
+para Room_Ferramentas_N2, a mesma sala do pé de cabra, em (330,180).
+Uma caixa de 14 pregos está no canto inferior direito dessa sala, em (451,271).
+Removidas as caixas da sala da queda e da sala de pesquisa/arquivos da fase 1.
+As três caixas anteriores da fase 2 foram preservadas: duas no laboratório e
+uma no depósito. Há agora quatro caixas na fase 2 e nenhuma na fase 1.
+A pistola continua começando com 4 pregos e comporta até 15, como antes.
+Itens são instâncias posicionadas no editor de salas. Não houve mudança na arte,
+paredes, portas ou kit de vida. A coleta e a posse entre salas continuam iguais.
+Inventário já adquirido não é apagado: para conferir a nova distribuição,
+comece uma partida nova. O pensamento sobre guardar munição acompanha a coleta.
+
+VALIDAÇÃO
+16 grupos de testes da investida passaram, incluindo dano em quatro direções,
+contato visual antes dos pés, paredes, invulnerabilidade, pausa, esquiva e
+20/30/60/120 FPS. Execução de GML em JavaScript com APIs simuladas e metadados
+reais dos sprites; isto não substitui execução nativa no GameMaker.
+Acesso à pistola e à caixa verificado em busca por grade com paredes reais.
+Verificados recursos, referências, instâncias e integridade do ZIP completo.
+Não foi possível compilar nem executar o GameMaker neste ambiente.
+
+ROTEIRO NO GAMEMAKER
+1. Nova partida: confirmar ausência da pistola e das caixas na fase 1.
+2. Abrir a sala de ferramentas na fase 2 e coletar pistola e caixa com E.
+3. Voltar à sala: itens já coletados não devem reaparecer.
+4. No boss cobra, deixar a investida atingir o jogador sem invulnerabilidade:
+   a vida deve cair 24 pontos e o chefe deve entrar em recuperação.
+5. Desviar, usar paredes como proteção e confirmar que não há dano duplicado.

@@ -1,0 +1,3 @@
+Verificação estática: recursos YY/YYP, destinos das portas e pontos de chegada conferidos. Ordem de criação: mapa e pontos antes do jogador.
+Não compilado nem executado no GameMaker neste ambiente.
+Testar: conversa, retorno entre salas, porta trancada, colisões do mobiliário, cinco segundos de movimento e queda no bunker.

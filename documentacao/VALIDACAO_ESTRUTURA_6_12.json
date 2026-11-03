@@ -1,0 +1,13 @@
+{
+  "resources": 219,
+  "new_sprites": 5,
+  "new_frames": 25,
+  "missing_references": [],
+  "original_files_removed": 0,
+  "original_code_changed": [
+    "tcc.yyp",
+    "tcc.resource_order",
+    "scripts/Scr_cobra_combate/Scr_cobra_combate.gml"
+  ],
+  "native_gamemaker_test": false
+}

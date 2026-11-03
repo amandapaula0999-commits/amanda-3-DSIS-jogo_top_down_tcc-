@@ -1,0 +1,13 @@
+{
+  "base": "6.22",
+  "version": "6.23",
+  "changed_files": [
+    "scripts/Scr_cobra_combate/Scr_cobra_combate.gml",
+    "rooms/Room_Desmoronada/Room_Desmoronada.yy",
+    "rooms/Room_Pesquisa/Room_Pesquisa.yy",
+    "rooms/Room_Ferramentas_N2/Room_Ferramentas_N2.yy"
+  ],
+  "missing_references": [],
+  "tests_passed": 16,
+  "native_gamemaker_test": false
+}

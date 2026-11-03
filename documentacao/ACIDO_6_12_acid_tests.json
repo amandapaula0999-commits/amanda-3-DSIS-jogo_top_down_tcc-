@@ -1,0 +1,53 @@
+{
+  "method": "Funcoes GML executadas em JavaScript com simulacao das APIs do GameMaker. Nao e compilacao nativa.",
+  "results": [
+    {
+      "name": "Cuspe seleciona quatro direcoes sem mover o chefe",
+      "passed": true
+    },
+    {
+      "name": "Chance sorteada uma vez por oportunidade e nao por quadro",
+      "passed": true
+    },
+    {
+      "name": "Preparacao trava mira, solta um unico projetil e permite esquiva",
+      "passed": true
+    },
+    {
+      "name": "Projetil em linha reta com alcance e duracao iguais entre FPS",
+      "passed": true
+    },
+    {
+      "name": "Acerto aplica dano uma vez e sincroniza vida global",
+      "passed": true
+    },
+    {
+      "name": "Invulnerabilidade e vida zero respeitadas",
+      "passed": true
+    },
+    {
+      "name": "Parede fina bloqueia antes de jogador inclusive empate",
+      "passed": true
+    },
+    {
+      "name": "Jogador antes da parede ainda recebe dano",
+      "passed": true
+    },
+    {
+      "name": "Paredes bloqueiam criacao na boca e perseguicao nao dispara atraves delas",
+      "passed": true
+    },
+    {
+      "name": "Pausa diario config dialogo cena vitoria congelam cuspe e projetil",
+      "passed": true
+    },
+    {
+      "name": "Morte de chefe remove tiro; morte de jogador cancela preparacao",
+      "passed": true
+    },
+    {
+      "name": "Sem cuspe simultaneo a investida ou golpe corpo a corpo",
+      "passed": true
+    }
+  ]
+}

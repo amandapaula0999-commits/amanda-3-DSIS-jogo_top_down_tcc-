@@ -1,0 +1,33 @@
+{
+  "method": "GML executado em JavaScript com APIs simuladas e roteiro real das rooms. Sem GameMaker nativo.",
+  "results": [
+    {
+      "name": "P percorre todas as 16 salas e retorna ao inicio sem ciclo prematuro",
+      "passed": true
+    },
+    {
+      "name": "Todos os destinos e marcadores existem, incluindo saida apos buraco",
+      "passed": true
+    },
+    {
+      "name": "Execucao real do atalho agenda cada destino e ponto do editor",
+      "passed": true
+    },
+    {
+      "name": "P ignora requisitos de combate sem conceder chaves ou marcar boss derrotado",
+      "passed": true
+    },
+    {
+      "name": "Pause, dialogo, duto, cena e creditos sao liberados; itens e vida preservados",
+      "passed": true
+    },
+    {
+      "name": "End Step reativa mapa antes de buscar roteiro e avancar",
+      "passed": true
+    },
+    {
+      "name": "Tecla P permanece por pressionamento e Create nao depende do mapa antecipadamente",
+      "passed": true
+    }
+  ]
+}

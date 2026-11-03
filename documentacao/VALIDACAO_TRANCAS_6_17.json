@@ -1,0 +1,37 @@
+{
+  "method": "GML executado em JS com APIs simuladas e propriedades reais das rooms. Sem execucao nativa no GameMaker.",
+  "results": [
+    {
+      "name": "Partida nova restaura trancas e desativa fim temporario",
+      "passed": true
+    },
+    {
+      "name": "Escada exige chave e conclusao do boss mesmo com portas livres",
+      "passed": true
+    },
+    {
+      "name": "Trancas do cientista, ferramentas, laboratorio e camara continuam funcionando",
+      "passed": true
+    },
+    {
+      "name": "Sem chave E mostra aviso e nao inicia transicao",
+      "passed": true
+    },
+    {
+      "name": "Com chave e boss concluido E desce ao corredor N2 e grava checkpoint",
+      "passed": true
+    },
+    {
+      "name": "Aproximar sem E nao troca de sala; pause impede interacao",
+      "passed": true
+    },
+    {
+      "name": "Pontos de chegada da descida e volta existem nas rooms",
+      "passed": true
+    },
+    {
+      "name": "Volta pela escada preserva inventario e progresso",
+      "passed": true
+    }
+  ]
+}

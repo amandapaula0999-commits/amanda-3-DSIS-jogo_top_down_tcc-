@@ -1,0 +1,69 @@
+{
+  "method": "GML executado em JavaScript com APIs simuladas; verificação das configurações reais das rooms. Não é execução nativa do GameMaker.",
+  "results": [
+    {
+      "name": "E aceita aproximacao breve e consome uma unica acao",
+      "passed": true
+    },
+    {
+      "name": "Comando fora de alcance expira, sem executar uma acao distante depois",
+      "passed": true
+    },
+    {
+      "name": "Segurar E nao repete coleta nem abertura",
+      "passed": true
+    },
+    {
+      "name": "Pausa, diario, configuracoes, cena e morte descartam E",
+      "passed": true
+    },
+    {
+      "name": "E e Espaco avancam falas, inclusive perto do fim do intervalo",
+      "passed": true
+    },
+    {
+      "name": "E que abre conversa nao pula a primeira fala; E que fecha nao abre porta",
+      "passed": true
+    },
+    {
+      "name": "Recriar controlador em nova room descarta a tecla da transicao",
+      "passed": true
+    },
+    {
+      "name": "Duto fora de alcance nao rouba comando de outra passagem",
+      "passed": true
+    },
+    {
+      "name": "Escada permanece trancada sem chave e boss; libera com ambos",
+      "passed": true
+    },
+    {
+      "name": "Area retangular e raio de duto aceitam exatamente o alcance do aviso",
+      "passed": true
+    },
+    {
+      "name": "Buraco so abre apos boss 2 e aceita E para entrar na ultima sala",
+      "passed": true
+    },
+    {
+      "name": "Ferramenta aceita novo E durante o intervalo curto sem exigir outro toque",
+      "passed": true
+    },
+    {
+      "name": "Camara exige segurar 3 segundos e soltar cancela o esforco",
+      "passed": true
+    },
+    {
+      "name": "Recepcionista percorre quatro falas com E e libera orientacao ao terminar",
+      "passed": true
+    },
+    {
+      "name": "Limpeza final apaga o frame anterior inteiro antes do cenario",
+      "passed": true
+    },
+    {
+      "name": "Limpeza da sala de espera permanece e outras salas nao recebem Draw extra",
+      "passed": true
+    }
+  ]
+}

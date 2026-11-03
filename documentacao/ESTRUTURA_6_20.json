@@ -1,0 +1,32 @@
+{
+  "changed_files": [
+    "tcc.yyp",
+    "rooms/Room_Laboratorio_N2/Room_Laboratorio_N2.yy",
+    "rooms/Room1/Room1.yy",
+    "rooms/Room_Manutencao_N2/Room_Manutencao_N2.yy",
+    "objects/Obj_menu/Draw_64.gml",
+    "objects/Obj_mapa/Draw_64.gml",
+    "objects/Obj_jogador/Draw_64.gml",
+    "objects/Obj_jogador/Create_0.gml",
+    "objects/Obj_jogador/Step_0.gml",
+    "scripts/Scr_estado_jogo/Scr_estado_jogo.gml"
+  ],
+  "missing_references": [],
+  "distribution": {
+    "Room_Laboratorio_N2": {
+      "kits": 3,
+      "new_ammo": 2
+    },
+    "Room1": {
+      "kits": 2,
+      "new_ammo": 0
+    },
+    "Room_Manutencao_N2": {
+      "kits": 0,
+      "new_ammo": 1
+    }
+  },
+  "tests_passed": 10,
+  "reachable_new_items": 8,
+  "native_gamemaker_test": false
+}

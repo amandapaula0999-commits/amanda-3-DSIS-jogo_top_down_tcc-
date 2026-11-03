@@ -1,0 +1,23 @@
+{
+  "removed_phase1_ammo": [
+    {
+      "room": "Room_Desmoronada",
+      "instance": "inst_bb066bc8e16c"
+    },
+    {
+      "room": "Room_Pesquisa",
+      "instance": "inst_a002624933c1"
+    }
+  ],
+  "gun": {
+    "room": "Room_Ferramentas_N2",
+    "x": 330,
+    "y": 180
+  },
+  "new_ammo": {
+    "room": "Room_Ferramentas_N2",
+    "x": 451,
+    "y": 271,
+    "quantity": 14
+  }
+}

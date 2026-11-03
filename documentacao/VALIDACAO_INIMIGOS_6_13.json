@@ -1,0 +1,36 @@
+{
+  "population": {
+    "Room_Desmoronada": 0,
+    "Room_Corredor": 0,
+    "Room_Pesquisa": 0,
+    "Room_Biblioteca": 1,
+    "Room_Corredor_Pos": 2
+  },
+  "removed_instances": {
+    "Room_Desmoronada": [
+      "inst_d1bfccb1d1dd",
+      "inst_25e5dcc3a3a9"
+    ],
+    "Room_Corredor": [
+      "inst_b51047d0ea68",
+      "inst_42869d32cc2b",
+      "inst_6f1636226230"
+    ],
+    "Room_Pesquisa": [
+      "inst_ffe7721b208d",
+      "inst_4164e81eb2d0",
+      "inst_53c1cfa92c38"
+    ]
+  },
+  "added_instances": [
+    "inst_CARACOL_POS_OESTE",
+    "inst_CARACOL_POS_LESTE"
+  ],
+  "modified_rooms": [
+    "rooms/Room_Desmoronada/Room_Desmoronada.yy",
+    "rooms/Room_Pesquisa/Room_Pesquisa.yy",
+    "rooms/Room_Corredor/Room_Corredor.yy",
+    "rooms/Room_Corredor_Pos/Room_Corredor_Pos.yy"
+  ],
+  "native_gamemaker_test": false
+}

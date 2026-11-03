@@ -1,0 +1,21 @@
+{
+  "missing_references": [],
+  "boxes": 2,
+  "box_amount": 14,
+  "magazine_capacity": 15,
+  "changed_files": [
+    "scripts/Scr_coletas/Scr_coletas.gml",
+    "scripts/Scr_colisoes/Scr_colisoes.gml",
+    "objects/Obj_jogador/Create_0.gml",
+    "objects/Obj_jogador/Step_0.gml",
+    "objects/Obj_armaPregos/Alarm_0.gml",
+    "objects/Obj_armaPregos/Create_0.gml",
+    "objects/Obj_armaPregos/Step_0.gml",
+    "objects/Obj_caixaPregos/Obj_caixaPregos.yy",
+    "objects/Obj_bala/Create_0.gml",
+    "rooms/Room_Desmoronada/Room_Desmoronada.yy",
+    "rooms/Room_Pesquisa/Room_Pesquisa.yy"
+  ],
+  "room_changes_only_ammo_quantity": true,
+  "native_gamemaker_test": false
+}

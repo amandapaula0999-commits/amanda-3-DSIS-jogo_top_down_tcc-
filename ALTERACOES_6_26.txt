@@ -1,0 +1,16 @@
+Escape The Bunker — v6.26
+
+Abra o arquivo tcc.yyp depois de extrair a pasta completa.
+
+ALTERAÇÕES
+- Bastão e pistola de pregos usam sprites próprios no chão, baseados nas referências enviadas, em escala proporcional ao jogador.
+- As poses e animações das armas equipadas foram preservadas.
+- Grade atravessa o corredor do nível 1, de parede a parede, antes da escada. O bloqueio usa um filho de Obj_parede colocado no editor da room.
+- E na grade exige a chave da escadaria e a derrota do boss, como a passagem anterior. Ao liberar a descida, a grade abre e permanece liberada ao retornar.
+- No nível 2, a antiga porta de subida foi substituída por uma escada no extremo direito. Interação E para voltar ao nível 1.
+- Ponto de chegada e colisões ajustados. As cinco caixas decorativas na área da nova escada foram removidas com seus respectivos colisores.
+- Mantida a correção de carregamento da v6.25 e os brilhos/dicas da v6.24.
+
+VALIDAÇÃO
+241 arquivos estruturais, 419 instâncias e 2965 referências conferidos. Oito grupos de testes simulados aprovados, incluindo condições da tranca, transições e sprites equipados. Rotas verificadas usando a caixa física dos pés.
+Não foi possível compilar ou executar no GameMaker neste ambiente. As imagens de prévia em documentacao/v6_26 são montagens dos recursos das rooms, sem HUD; não são capturas de execução.

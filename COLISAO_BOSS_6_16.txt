@@ -1,0 +1,29 @@
+ESCAPE THE BUNKER — 6.16
+Extraia toda a pasta e abra tcc.yyp no GameMaker.
+
+CORREÇÕES DO BOSS DA FASE 1
+O cano antes verificava somente a distância até a origem do boss, apesar de seu
+corpo ser três vezes maior que o sprite original. Agora usa o ponto mais próximo
+da área do corpo que recebe dano. A área recebe 8 pixels extras em cada lado;
+essa mesma área é usada pelos projéteis. O alcance do cano continua 52 pixels
+a partir dessa borda, com arco frontal e apenas um acerto por animação.
+Paredes continuam bloqueando o golpe. A carapaça continua protegendo o boss
+enquanto ele estiver em pé: é preciso derrubá-lo com ácido para causar dano.
+
+A poça antes usava um retângulo de 240x168, incluindo seus cantos transparentes.
+Agora usa máscara precisa pré-carregada, baseada na transparência da imagem.
+A queda é acionada pela faixa de apoio dos pés: x-18 até x+18, y+33 até y+45.
+Essa faixa não depende da hitbox dos golpes nem aumenta o corpo físico.
+Dano do ácido (35), tempo de vulnerabilidade (4,5 s) e recarga foram mantidos.
+Uma mesma poça não repete o dano após o boss se levantar.
+
+PRESERVADO
+Nenhum PNG, tamanho de personagem, cenário ou room foi alterado.
+As caixas de 14 pregos e pente de 15 da versão anterior foram preservados.
+
+VALIDAÇÃO
+33 grupos de testes de lógica passaram: 9 específicos desta correção, 12 de
+combate e 12 dos pregos. As funções GML foram exercitadas em JavaScript com APIs
+simuladas. O teste da poça utiliza os valores reais de alpha do PNG.
+Referências dos recursos, preservação dos arquivos e integridade do ZIP verificadas.
+Não foi possível compilar ou executar no GameMaker, ausente neste ambiente.

@@ -1,0 +1,25 @@
+6.06 — LIMPEZA DE RECURSOS
+
+Removidos 11 sprites sem referências após retirar variáveis locais sem uso.
+Menus e mecânicas mantidos.
+
+SPRITES REMOVIDOS
+Spr_acesso_manutencao
+Spr_canoAtaque
+Spr_jogador_parado_cima
+Spr_jogador_parado_direita
+Spr_jogador_parado_esquerda
+Spr_menu_bolsos
+Spr_menu_cartoes
+Spr_parado_cima
+Spr_parado_direita
+Spr_parado_esquerda
+Spr_pause_cartoes
+
+RECURSOS MANTIDOS
+Spr_barril_caindo: animação e liberação de ácido.
+Spr_porta_bunker_comum e Spr_porta_bunker_restrita: desenho e duração de abertura.
+Spr_porta_fachada: desenho de portas.
+Spr_menu_sair: cobertura da tela na animação de saída.
+
+Arquivos e referências validados estaticamente. Execução no GameMaker pendente.

@@ -1,0 +1,37 @@
+{
+  "method": "GML compatível executado em JavaScript com APIs simuladas. Não substitui execução no GameMaker.",
+  "results": [
+    {
+      "name": "Grade inicia fechada e nova partida restaura tranca",
+      "passed": true
+    },
+    {
+      "name": "E sem chave ou sem boss não abre grade nem troca room (8 combinações)",
+      "passed": true
+    },
+    {
+      "name": "E válido abre grade, desce em 0,42 s e salva checkpoint",
+      "passed": true
+    },
+    {
+      "name": "Sem E, durante pausa e fora do alcance a grade permanece fechada",
+      "passed": true
+    },
+    {
+      "name": "Subida no extremo direito leva à fase 1 e conserva grade aberta",
+      "passed": true
+    },
+    {
+      "name": "Grade visual e colisor somem só após abertura; colisor herda Obj_parede",
+      "passed": true
+    },
+    {
+      "name": "Trocar sprite da arma no chão restaura todos os quadros da arma equipada",
+      "passed": true
+    },
+    {
+      "name": "Os dois itens usam sprite do chão sem dono",
+      "passed": true
+    }
+  ]
+}

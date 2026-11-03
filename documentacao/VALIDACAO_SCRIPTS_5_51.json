@@ -1,0 +1,43 @@
+{
+  "base": "5.50 PAUSA_VISIVEL",
+  "funcoes_reorganizadas_sem_alterar_conteudo": 67,
+  "modulos_de_destino": 18,
+  "funcoes_nomeadas_no_projeto": 106,
+  "recursos_registrados": 190,
+  "arquivos_de_metadados_verificados": 199,
+  "eventos_registrados": 97,
+  "arquivos_identicos_por_categoria": {
+    "objects": 146,
+    "rooms": 15,
+    "sprites": 592,
+    "sounds": 26,
+    "fonts": 4,
+    "options": 4
+  },
+  "linhas_por_modulo": {
+    "Scr_camera": 96,
+    "Scr_audio": 91,
+    "Scr_configuracoes": 57,
+    "Scr_menu_cartoes": 144,
+    "Scr_personagens_visual": 48,
+    "Scr_combate": 109,
+    "Scr_coletas": 28,
+    "Scr_percepcao": 18,
+    "Scr_vitoria": 35,
+    "Scr_cenario_dinamico": 81,
+    "Scr_debug": 114,
+    "Scr_checkpoints": 26,
+    "Scr_passagens": 83,
+    "Scr_passagens_visual": 90,
+    "Scr_progressao": 97,
+    "Scr_interface_mensagens": 163,
+    "Scr_ferramentas": 58,
+    "Scr_boss_movimento": 100
+  },
+  "arquivos_nao_registrados_herdados": [
+    "fonts/Font_de_fala/Font_de_fala.old.yy",
+    "sprites/Spr_checkpoint/Spr_checkpoint.yy"
+  ],
+  "erros": [],
+  "limite": "Comparação literal das funções e verificações estáticas; oito testes de estado/progressão executados em simulação JS. Sem compilação ou execução na engine GameMaker."
+}

@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "colisores cobrem superfícies indicadas",
+    "secretária acessível pela frente",
+    "portas da recepção e biblioteca alcançáveis",
+    "Draw da espera idêntico ao trecho da 5.52",
+    "efeito acima do fundo",
+    "porta visível por padrão"
+  ],
+  "collision_changes": 20,
+  "new_secretary_collider": 1,
+  "limit": "Geometria e código conferidos; não é execução nativa do GameMaker."
+}

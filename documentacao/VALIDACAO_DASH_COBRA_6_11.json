@@ -1,0 +1,142 @@
+{
+  "resources": 212,
+  "new_sprites": [
+    "Spr_cobra_dash_baixo",
+    "Spr_cobra_dash_cima",
+    "Spr_cobra_dash_direita",
+    "Spr_cobra_dash_esquerda"
+  ],
+  "frames": 24,
+  "all_rooms_unchanged": true,
+  "boss_collision_mask_unchanged": true,
+  "changes_to_original_files": [
+    "tcc.yyp",
+    "tcc.resource_order",
+    "objects/Obj_boss_cobra/Step_0.gml",
+    "objects/Obj_boss_cobra/Create_0.gml"
+  ],
+  "native_gamemaker_test": false,
+  "logic": {
+    "method": "GML attack functions executed with JavaScript engine stubs; not native GameMaker",
+    "results": [
+      {
+        "name": "Four directions select matching sprites",
+        "passed": true
+      },
+      {
+        "name": "Preparation holds position and deals no damage",
+        "passed": true
+      },
+      {
+        "name": "Dash keeps original aim, dodge succeeds, timing matches 20/30/60/120 FPS",
+        "passed": true
+      },
+      {
+        "name": "Single hit, recovery window and cooldown",
+        "passed": true
+      },
+      {
+        "name": "Invulnerable player stops dash without damage",
+        "passed": true
+      },
+      {
+        "name": "Thin wall introduced during windup stops dash and shields player",
+        "passed": true
+      },
+      {
+        "name": "Furniture prevents initiating dash",
+        "passed": true
+      },
+      {
+        "name": "Knockback cannot push through wall",
+        "passed": true
+      },
+      {
+        "name": "Pause/diary/settings/dialog/cutscene/victory freeze all attack phases",
+        "passed": true
+      },
+      {
+        "name": "Dead player cancels attack",
+        "passed": true
+      },
+      {
+        "name": "Existing melee windup is not interrupted",
+        "passed": true
+      },
+      {
+        "name": "Boss death still sets progress and destroys instance in original Step",
+        "passed": true
+      }
+    ]
+  },
+  "asset_import": {
+    "baixo": {
+      "frames": 6,
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        80,
+        80
+      ],
+      "bounds": {
+        "l": 44,
+        "t": 31,
+        "r": 112,
+        "b": 104
+      }
+    },
+    "cima": {
+      "frames": 6,
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        80,
+        80
+      ],
+      "bounds": {
+        "l": 52,
+        "t": 40,
+        "r": 116,
+        "b": 114
+      }
+    },
+    "direita": {
+      "frames": 6,
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        80,
+        80
+      ],
+      "bounds": {
+        "l": 43,
+        "t": 50,
+        "r": 127,
+        "b": 100
+      }
+    },
+    "esquerda": {
+      "frames": 6,
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        79,
+        80
+      ],
+      "bounds": {
+        "l": 32,
+        "t": 50,
+        "r": 116,
+        "b": 100
+      }
+    }
+  }
+}

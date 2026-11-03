@@ -1,0 +1,42 @@
+ESCAPE THE BUNKER — 6.20
+Extraia a pasta completa e abra tcc.yyp no GameMaker.
+
+KITS DE VIDA
+E: coleta o kit próximo e guarda no inventário. Não cura automaticamente.
+Q: usa um kit e recupera 20% da vida máxima (20 pontos com máximo de 100).
+A vida não ultrapassa o máximo. Com vida cheia, nenhum kit é gasto.
+O contador [Q] KITS DE VIDA aparece no painel do inventário, junto da munição.
+Ao coletar, aparece no topo: Aperte Q para se curar (+20% da vida máxima).
+É preciso soltar e apertar Q novamente para usar outro kit.
+Pausa, diálogos, cenas, diário e morte impedem usar ou coletar kits.
+Paredes bloqueiam coleta. IDs únicos impedem duplicação ao voltar ou reiniciar.
+Inventário e coletas persistem entre rooms e respawns, como a munição.
+Nova partida zera esse inventário. Kits já usados permanecem consumidos no respawn.
+
+DISTRIBUIÇÃO NO EDITOR DE SALAS
+Sala do boss 1 (Room1): 2 kits, em (78,550) e (1140,210).
+Laboratório/boss final: 3 kits, em (90,220), (872,365) e (585,550).
+São locais escolhidos e fixos no editor, sem sorteio que possa prender itens.
+Caixas novas somente na fase 2: duas no laboratório, em (330,100) e (875,555),
+e uma no depósito (Room_Manutencao_N2), em (110,265).
+Cada caixa contém 14 pregos. O pente continua limitado a 15.
+Os itens anteriores permanecem nas mesmas posições e quantidades.
+
+ARTE E IMPLEMENTAÇÃO
+Kit com sprite estático de 24x24 e transparência, sem evento Draw.
+Arte gerada pela ferramenta integrada de imagens e importada em escala pequena
+com vizinho mais próximo. Caminho: sprites/Spr_kit_vida/.
+Prompt: ONE isolated small first-aid hard case, pale gray/off-white, dark charcoal
+outline, muted green medical plus, tiny handle, simple chunky 24x24 pixel style,
+slight top/front view for a top-down bunker game, transparent background, no text,
+no floor or external shadow, one centered object, no variations or sprite sheet.
+Lógica em Scr_itens_vida; apenas uma chamada adicionada ao Step do jogador.
+
+VALIDAÇÃO
+10 grupos de testes de lógica passaram: cura de 20%, limite, vida cheia, quantidade,
+pausa/morte, IDs únicos, coleta através de paredes, Q por pressão, munição independente
+e persistência. GML executado em JavaScript com APIs simuladas.
+Busca em grade com as colisões reais confirmou acesso aos oito itens adicionados,
+incluindo o depósito com a câmara fria fechada. Não simula os inimigos.
+Referências de recursos, quantidade de itens, PNGs e ZIP verificados.
+Não foi possível compilar ou executar no GameMaker neste ambiente.

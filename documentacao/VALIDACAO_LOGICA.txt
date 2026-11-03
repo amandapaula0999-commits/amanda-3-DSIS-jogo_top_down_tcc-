@@ -1,0 +1,10 @@
+Testes de lógica em ambiente simulado JS; não é compilação GML.
+
+PASSOU: Inicialização antes dos eventos, todos os 84 campos definidos
+PASSOU: Inicialização repetida não apaga progresso ou inventário
+PASSOU: Troca de sala limpa bloqueios temporários e preserva entrada e checkpoint
+PASSOU: Morte retorna ao checkpoint em outra sala, mantendo os itens
+PASSOU: Morte na sala do checkpoint reinicia a mesma sala
+PASSOU: Portas de ferramentas e laboratório mantêm requisitos mesmo em modo teste
+PASSOU: Escadaria exige chave e Boss vencido quando as travas normais estão ativas
+PASSOU: Nova partida reinicia progresso, arrays e inventário, conservando preferências

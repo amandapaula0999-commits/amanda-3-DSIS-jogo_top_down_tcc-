@@ -1,0 +1,80 @@
+CORREÇÕES V5.47
+Base: Escape The Bunker v5.46 — projeto completo.
+
+1. EMPURRÃO / PAREDES FINAS
+Collision_Obj_caracol agora aplica bunker_deslocar_seguro. O deslocamento
+é dividido em passos de no máximo 1 pixel em cada eixo e usa a máscara real
+dos pés. Um eixo bloqueado para; o outro ainda pode deslizar pela parede.
+O contato do boss e a aproximação da finalização furtiva usam o mesmo método.
+O dano do caracol continua em 10 e a proteção em 3 segundos.
+A recuperação durante o Step retorna à última posição livre confirmada, em
+vez de procurar pontos num círculo que pode alcançar o outro lado da parede.
+A correção inicial de spawn no Create permanece disponível.
+
+2. REGRA ÚNICA DE TEMPO
+bunker_dt() retorna segundos; bunker_passo() converte para unidades de 60 Hz.
+60 unidades correspondem a 1 segundo. Valores de velocidade, dano e duração
+foram conservados na referência de 60 FPS.
+Movimento do jogador, caracóis, lagartos, boss, projéteis, finalização,
+percepção dos inimigos, ruído, recarga e invulnerabilidade usam esse tempo.
+As ações que estavam nos Alarm 0 são disparadas por temporizadores explícitos;
+o alarme nativo permanece desativado para não contar o tempo duas vezes.
+Recarga segue contando com a outra arma selecionada; pausas e diálogos
+suspendem os temporizadores de combate. Coleta instantânea cancela a recarga.
+A animação de queda do barril é avançada explicitamente e limitada ao último
+quadro antes de derramar ácido; não depende de conseguir renderizar esse quadro.
+Animações de caminhada respeitam a taxa configurada no sprite.
+Portas, espera da abertura, textos e cenas usam a mesma referência; eventos
+pontuais de cena verificam cruzamento de tempo, não igualdade de um quadro.
+
+Limite comum: cada atualização aceita até 0,05 segundo, como o boss já fazia.
+Entre 20 FPS e taxas maiores, as velocidades nominais são compensadas. Abaixo
+disso ou durante um travamento longo, a simulação desacelera por segurança;
+o boss não recebe um relógio mais rápido que o jogador. Contadores de amostras
+de desempenho, índices, inputs e verificações de spawn continuam contadores,
+pois não representam duração de uma ação de combate.
+
+3. CUSTO DAS COLISÕES
+bunker_paredes_candidatas usa collision_rectangle_list para selecionar apenas
+paredes sobrepostas à região consultada. A lista temporária é destruída.
+O teste contínuo de segmento contra caixa continua calculando o primeiro
+impacto; a parede continua vencendo empates com alvos.
+Cada avaliação de pose do cano seleciona uma lista de paredes que cobre o
+jogador, a mão, os pixels atuais e os pixels da pose anterior. Essa mesma lista
+é reutilizada para todos os segmentos de metal e linhas de visibilidade.
+Não há cache permanente: abrir/destruir/criar uma porta é refletido na próxima
+consulta. Nenhuma alteração necessária nos recursos de Obj_parede.
+
+VERIFICAÇÕES REALIZADAS
+- 173 recursos registrados, 181 arquivos de recurso analisados, 232 quadros de
+  sprites, 15 rooms e 96 eventos: referências e arquivos presentes.
+- 618 arquivos de arte/áudio e 15 arquivos de rooms idênticos à v5.46.
+- 14 grupos de regressão de lógica em um harness JavaScript com adaptações
+  de trechos GML e substitutos determinísticos para funções da engine.
+- 6.000 trajetórias aleatórias: a consulta filtrada encontra a mesma fração
+  de primeiro contato que a varredura de todas as paredes.
+- 3.000 golpes de três poses: dano/bloqueio equivalentes nas quatro direções.
+- Empurrões de 12 e 18 pixels nas quatro direções, quinas e paredes de 1 pixel.
+- Recarga de 0,5s, invulnerabilidade de 3s, cancelamento, expiração única,
+  deslocamento e animação simulados em 20, 30, 60, 120 e 144 FPS.
+- Projétil para antes de parede fina; arremesso mantém alcance de 280 pixels
+  com o último passo limitado pelo tempo de voo restante.
+- Cena não perde os eventos de tempo 106/192; queda do barril derrama uma
+  única vez e preserva pausa e reposição.
+- Exemplo sintético de 2.001 paredes, uma pose: testes exatos de parede caíram
+  de 278.139 para 139, mais uma seleção de candidatas. É contagem de operações
+  do harness, não uma medição de FPS ou de CPU no GameMaker.
+
+LIMITAÇÃO
+Compilação e execução no GameMaker pendentes. As checagens de estrutura,
+sintaxe superficial e simulações NÃO substituem compilação/execução na engine.
+
+ROTEIRO PARA CONFERIR NO GAMEMAKER
+1. Abrir tcc.yyp, compilar e iniciar uma partida.
+2. Receber dano de caracol encostado numa parede e numa quina: não atravessar.
+3. Conferir perseguição/velocidade relativa do jogador e boss em 60 e 30 FPS.
+4. Recarregar (0,5s); pausar no meio; retornar e confirmar o tempo restante.
+5. Atacar um inimigo/barril atrás de parede com cano e pregos: não atingir.
+6. Derrubar o barril; confirmar poça, dano no boss e reposição do barril.
+7. Ver a cena inicial do boss, vencer e confirmar remoção do bloqueio/saída.
+8. Abrir a câmara fria e conferir que a parede removida não bloqueia projéteis.

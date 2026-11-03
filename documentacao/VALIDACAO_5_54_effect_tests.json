@@ -1,0 +1,12 @@
+{
+  "fps": [
+    20,
+    30,
+    60,
+    144
+  ],
+  "soundPerRun": 1,
+  "transitionsPerRun": 1,
+  "doorSpriteDraws": 1,
+  "limit": "Selected GML evaluated with JS engine stubs, not a native GameMaker run."
+}

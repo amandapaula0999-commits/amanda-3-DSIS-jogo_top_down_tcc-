@@ -1,0 +1,10 @@
+Escape The Bunker — v6.25
+
+Correção de abertura do projeto:
+Removido o campo creationCodeFile das sete instâncias de Obj_brilho_interacao, nas quatro salas indicadas pelo erro. Esse campo não pertence ao formato GMRInstance v4 usado nas demais 412 instâncias. frozen=false e hasCreationCode=false foram preservados.
+
+Todos os desenhos, scripts, posições, brilhos e dicas da versão 6.24 foram mantidos. Somente os quatro arquivos de sala foram corrigidos, além deste registro e do relatório de validação.
+
+Validação: estrutura das 419 instâncias, arquivos de recursos, referências, propriedades e ordem de criação das salas. Não foi possível executar a compilação ou abrir no GameMaker neste ambiente.
+
+Extraia esta pasta completa e abra tcc.yyp.
